@@ -1,0 +1,482 @@
+[
+  {
+    "REGION": "Алтайский Край",
+    "REGION_CUST_CNT": "4 705",
+    "REGION_TP_CNT": "18",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Амурская область",
+    "REGION_CUST_CNT": "1 872",
+    "REGION_TP_CNT": "12",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Архангельская область",
+    "REGION_CUST_CNT": "2 390",
+    "REGION_TP_CNT": "11",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Астраханская область",
+    "REGION_CUST_CNT": "1 179",
+    "REGION_TP_CNT": "5",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Белгородская область",
+    "REGION_CUST_CNT": "5 651",
+    "REGION_TP_CNT": "12",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Брянская область",
+    "REGION_CUST_CNT": "1 149",
+    "REGION_TP_CNT": "6",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Владимирская область",
+    "REGION_CUST_CNT": "2 206",
+    "REGION_TP_CNT": "8",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Волгоградская область",
+    "REGION_CUST_CNT": "4 117",
+    "REGION_TP_CNT": "16",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Вологодская область",
+    "REGION_CUST_CNT": "4 899",
+    "REGION_TP_CNT": "16",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Воронежская область",
+    "REGION_CUST_CNT": "3 850",
+    "REGION_TP_CNT": "19",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Еврейская Автономная область",
+    "REGION_CUST_CNT": "12",
+    "REGION_TP_CNT": "2",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Забайкальский Край",
+    "REGION_CUST_CNT": "1 735",
+    "REGION_TP_CNT": "16",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Ивановская область",
+    "REGION_CUST_CNT": "1 376",
+    "REGION_TP_CNT": "5",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Иркутская область",
+    "REGION_CUST_CNT": "6 789",
+    "REGION_TP_CNT": "32",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Кабардино-Балкарская Республика",
+    "REGION_CUST_CNT": "437",
+    "REGION_TP_CNT": "2",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Калининградская область",
+    "REGION_CUST_CNT": "3 423",
+    "REGION_TP_CNT": "10",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Калужская область",
+    "REGION_CUST_CNT": "1 958",
+    "REGION_TP_CNT": "5",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Камчатский Край",
+    "REGION_CUST_CNT": "2 054",
+    "REGION_TP_CNT": "5",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Кемеровская область",
+    "REGION_CUST_CNT": "6 396",
+    "REGION_TP_CNT": "35",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Кировская область",
+    "REGION_CUST_CNT": "1 737",
+    "REGION_TP_CNT": "8",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Костромская область",
+    "REGION_CUST_CNT": "787",
+    "REGION_TP_CNT": "5",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Краснодарский Край",
+    "REGION_CUST_CNT": "6 230",
+    "REGION_TP_CNT": "31",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Краснодарский край",
+    "REGION_CUST_CNT": "970",
+    "REGION_TP_CNT": "1",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Красноярский Край",
+    "REGION_CUST_CNT": "3 446",
+    "REGION_TP_CNT": "27",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Красноярский край",
+    "REGION_CUST_CNT": "2",
+    "REGION_TP_CNT": "1",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Курганская область",
+    "REGION_CUST_CNT": "802",
+    "REGION_TP_CNT": "4",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Курская область",
+    "REGION_CUST_CNT": "2 009",
+    "REGION_TP_CNT": "16",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Ленинградская область",
+    "REGION_CUST_CNT": "1 593",
+    "REGION_TP_CNT": "12",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Липецкая область",
+    "REGION_CUST_CNT": "1 419",
+    "REGION_TP_CNT": "7",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Магаданская область",
+    "REGION_CUST_CNT": "1 969",
+    "REGION_TP_CNT": "2",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Москва",
+    "REGION_CUST_CNT": "251 601",
+    "REGION_TP_CNT": "221",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Московская область",
+    "REGION_CUST_CNT": "48 081",
+    "REGION_TP_CNT": "77",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Мурманская область",
+    "REGION_CUST_CNT": "3 386",
+    "REGION_TP_CNT": "13",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Ненецкий авт.округ",
+    "REGION_CUST_CNT": "186",
+    "REGION_TP_CNT": "1",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Нижегородская область",
+    "REGION_CUST_CNT": "4 738",
+    "REGION_TP_CNT": "26",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Новгородская область",
+    "REGION_CUST_CNT": "1 358",
+    "REGION_TP_CNT": "3",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Новосибирская область",
+    "REGION_CUST_CNT": "7 737",
+    "REGION_TP_CNT": "38",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Омская область",
+    "REGION_CUST_CNT": "3 443",
+    "REGION_TP_CNT": "14",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Оренбургская область",
+    "REGION_CUST_CNT": "2 459",
+    "REGION_TP_CNT": "16",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Орловская область",
+    "REGION_CUST_CNT": "1 127",
+    "REGION_TP_CNT": "5",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Пензенская область",
+    "REGION_CUST_CNT": "1 603",
+    "REGION_TP_CNT": "10",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Пермский Край",
+    "REGION_CUST_CNT": "4 945",
+    "REGION_TP_CNT": "29",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Приморский Край",
+    "REGION_CUST_CNT": "5 303",
+    "REGION_TP_CNT": "15",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Псковская область",
+    "REGION_CUST_CNT": "763",
+    "REGION_TP_CNT": "5",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Республика Адыгея",
+    "REGION_CUST_CNT": "15",
+    "REGION_TP_CNT": "1",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Республика Алтай",
+    "REGION_CUST_CNT": "119",
+    "REGION_TP_CNT": "1",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Республика Башкортостан",
+    "REGION_CUST_CNT": "4 126",
+    "REGION_TP_CNT": "21",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Республика Бурятия",
+    "REGION_CUST_CNT": "1 870",
+    "REGION_TP_CNT": "6",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Республика Дагестан",
+    "REGION_CUST_CNT": "26",
+    "REGION_TP_CNT": "1",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Республика Карелия",
+    "REGION_CUST_CNT": "1 617",
+    "REGION_TP_CNT": "10",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Республика Коми",
+    "REGION_CUST_CNT": "2 199",
+    "REGION_TP_CNT": "6",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Республика Марий Эл",
+    "REGION_CUST_CNT": "1 167",
+    "REGION_TP_CNT": "6",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Республика Мордовия",
+    "REGION_CUST_CNT": "382",
+    "REGION_TP_CNT": "4",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Республика Саха (Якутия)",
+    "REGION_CUST_CNT": "3 111",
+    "REGION_TP_CNT": "12",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Республика Северная Осетия",
+    "REGION_CUST_CNT": "450",
+    "REGION_TP_CNT": "5",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Республика Татарстан",
+    "REGION_CUST_CNT": "6 531",
+    "REGION_TP_CNT": "32",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Республика Хакасия",
+    "REGION_CUST_CNT": "99",
+    "REGION_TP_CNT": "1",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Ростовская область",
+    "REGION_CUST_CNT": "7 570",
+    "REGION_TP_CNT": "33",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Рязанская область",
+    "REGION_CUST_CNT": "1 727",
+    "REGION_TP_CNT": "5",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Самарская область",
+    "REGION_CUST_CNT": "8 055",
+    "REGION_TP_CNT": "35",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Санкт-Петербург",
+    "REGION_CUST_CNT": "37 374",
+    "REGION_TP_CNT": "74",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Саратовская область",
+    "REGION_CUST_CNT": "2 552",
+    "REGION_TP_CNT": "22",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Сахалинская область",
+    "REGION_CUST_CNT": "2 393",
+    "REGION_TP_CNT": "4",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Свердловская область",
+    "REGION_CUST_CNT": "5 411",
+    "REGION_TP_CNT": "48",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Смоленская область",
+    "REGION_CUST_CNT": "1 170",
+    "REGION_TP_CNT": "7",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Ставропольский Край",
+    "REGION_CUST_CNT": "3 745",
+    "REGION_TP_CNT": "12",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Тамбовская область",
+    "REGION_CUST_CNT": "982",
+    "REGION_TP_CNT": "5",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Тверская область",
+    "REGION_CUST_CNT": "1 570",
+    "REGION_TP_CNT": "9",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Томская область",
+    "REGION_CUST_CNT": "1 924",
+    "REGION_TP_CNT": "8",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Тульская область",
+    "REGION_CUST_CNT": "4 209",
+    "REGION_TP_CNT": "17",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Тюменская область",
+    "REGION_CUST_CNT": "4 576",
+    "REGION_TP_CNT": "14",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Удмуртская Республика",
+    "REGION_CUST_CNT": "2 017",
+    "REGION_TP_CNT": "13",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Ульяновская область",
+    "REGION_CUST_CNT": "1 499",
+    "REGION_TP_CNT": "7",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Хабаровский Край",
+    "REGION_CUST_CNT": "4 488",
+    "REGION_TP_CNT": "17",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Хабаровский край",
+    "REGION_CUST_CNT": "3 422",
+    "REGION_TP_CNT": "1",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Ханты-мансийский авт.округ",
+    "REGION_CUST_CNT": "5 273",
+    "REGION_TP_CNT": "17",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Челябинская область",
+    "REGION_CUST_CNT": "4 746",
+    "REGION_TP_CNT": "28",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Чувашская Республика",
+    "REGION_CUST_CNT": "2 365",
+    "REGION_TP_CNT": "9",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Ямало-ненецкий авт.округ",
+    "REGION_CUST_CNT": "1 778",
+    "REGION_TP_CNT": "7",
+    "REGION_PM_CNT": "15"
+  },
+  {
+    "REGION": "Ярославская область",
+    "REGION_CUST_CNT": "3 458",
+    "REGION_TP_CNT": "12",
+    "REGION_PM_CNT": "15"
+  }
+]
