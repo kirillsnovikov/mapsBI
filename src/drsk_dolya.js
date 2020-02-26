@@ -1,5 +1,7 @@
 'use strict';
 
+import { calculateData } from './helpers/drsk_dolya';
+
 export function MapLoader_dolya() {
   window.requestAnimationFrame = (function() {
     return (
@@ -199,7 +201,7 @@ export function MapLoader_dolya() {
 
   this.init = function(mapUrl, data, width, height) {
     this.mapUrl = mapUrl;
-    this.data = data;
+    this.data = calculateData(data);
     this.width = width || document.body.clientWidth;
     this.height = height || (document.body.clientWidth * 9) / 20;
     return this;
@@ -285,13 +287,16 @@ export function MapLoader_dolya() {
     self.definePieKeys = function() {
       var curState = self.zoomScale.curState;
 
-      var keys = [{ Офисов: '_TP_CNT' }, { ПМ: '_PM_CNT' }];
+      // ВРЕМЕННО УБРАЛИ "ПМ"
+      // , { ПМ: '_PM_CNT' }
+
+      var keys = [{ Офисов: '_TP_CNT' }];
 
       if (window.title === 'Портфель активных клиентов') {
         var key = window.title + ', <small>шт</small>';
         keys.push({ [key]: '_CUSTOMER' });
       } else {
-        var key = window.title + ', <small>тыс.руб</small>';
+        var key = 'Всего клиентов' + ', <small>шт.</small>';
         keys.push({ [key]: '_CUSTOMER' });
       }
 
@@ -372,7 +377,7 @@ export function MapLoader_dolya() {
             width: widthColumn
           }),
           new self.tableColumn({
-            name: 'ROO_BY_CITY_CUSTOMER',
+            name: 'ROO_CUSTOMER',
             display: window.title + ', шт',
             align: 'right'
           }),
@@ -504,41 +509,6 @@ export function MapLoader_dolya() {
         )
       );
     });
-    Object.values(mapCollection.data).forEach(item => {
-      var regions = Object.values(mapCollection.data).filter(k => {
-        return k.ROO === item.ROO && item.UDGO === k.UDGO;
-      });
-      var regFakt = 0;
-      regions.forEach(item => {
-        regFakt += self.helper.toNumber(item.CITY_CUSTOMER);
-      });
-      item['ROO_BY_CITY_CUSTOMER'] = regFakt.toLocaleString();
-    });
-    let udgos = new Set(
-      Object.values(mapCollection.data).map(item => item.UDGO)
-    );
-    mapCollection.udgos = {};
-    udgos.forEach(udgo => {
-      let data = Object.values(mapCollection.data).filter(item => {
-        return item.UDGO === udgo;
-      });
-      let fakt = 0;
-      // let percent = 0;
-      data.forEach(j => {
-        fakt += self.helper.toNumber(j.CITY_CUSTOMER);
-      });
-      // if (fakt === 0 && plan === 0) {
-      //   percent = 0;
-      // } else if (fakt !== 0 && plan === 0) {
-      //   percent = 100;
-      // } else {
-      //   percent = (fakt / plan) * 100;
-      // }
-      mapCollection.udgos[udgo] = {};
-      mapCollection.udgos[udgo]['UDGO_CUSTOMER'] = fakt;
-      // mapCollection.udgos[udgo]['UDGO_PLAN'] = plan;
-      // mapCollection.udgos[udgo]['UDGO_PRC'] = percent;
-    });
 
     var map = topojson.feature(mapData, mapData.objects.russia);
     var path = d3.geoPath().projection(self.projection);
@@ -668,13 +638,13 @@ export function MapLoader_dolya() {
             })
           );
         });
-        result.unshift(getTotalRoos(result));
+        result.unshift(getTotal(keys, curState));
       } else if (
         curState === self.zoomScale.ROO ||
         curState === self.zoomScale.REG
       ) {
         var cities = self.data.filter(function(item) {
-          return item[name] === entry[name];
+          return item[name] === entry[name] && item.UDGO === entry.UDGO;
         });
         new Set(
           cities.map(function(i) {
@@ -687,7 +657,7 @@ export function MapLoader_dolya() {
             })
           );
         });
-        result.unshift(getTotalRoos(result));
+        result.unshift(getTotal(keys, curState));
         if (self.zoomScale.citiesVisible()) {
           result['cities'] = window.RU_TP.filter(function(item) {
             return item[name] === entry[name];
@@ -702,19 +672,6 @@ export function MapLoader_dolya() {
         });
         keys.forEach(function(key) {
           total[key] = entry[key];
-        });
-        return total;
-      }
-      function getTotalRoos(data) {
-        var total = {};
-        keys.forEach(key => {
-          if (key === 'CUSTOMER') {
-            total[`UDGO_${key}`] = mapCollection.udgos[entry[name]][
-              `UDGO_${key}`
-            ].toLocaleString();
-          } else {
-            total[`UDGO_${key}`] = entry[`UDGO_${key}`];
-          }
         });
         return total;
       }
@@ -812,7 +769,7 @@ export function MapLoader_dolya() {
       result.title['label'] = pieKeys.title;
       result.title['value'] = title;
       result['color'] = self.color(self.helper.toNumber(entry[color]));
-      result['percentage'] = entry[color];
+      result['percentage'] = self.helper.toNumber(entry[color]);
       var pieData = pieKeys[name].find(function(item) {
         if (name === 'ROO') {
           return (
@@ -846,14 +803,7 @@ export function MapLoader_dolya() {
           } else if (Object.keys(data)[0] === 'РОО') {
             result.data.push({
               label: Object.keys(data)[0],
-              value: self.udgosUnique.size
-            });
-          } else if (Object.values(data)[0] === 'UDGO_CUSTOMER') {
-            result.data.push({
-              label: Object.keys(data)[0],
-              value: mapCollection.udgos[entry[name]][
-                Object.values(data)[0]
-              ].toLocaleString()
+              value: entry.ROO_CNT
             });
           } else {
             result.data.push({
@@ -928,12 +878,13 @@ export function MapLoader_dolya() {
 
       svg.appendChild(progressBG);
       svg.appendChild(progressBar);
-      setTimeout(function() {
-        $(progressBar).css('stroke-dasharray', [
-          (circle.circumference / 100) * circle.percentage,
-          circle.circumference
-        ]);
-      }, 0);
+      setTimeout(() => {
+        progressBar.setAttribute(
+          'style',
+          `stroke-dasharray: ${(circle.circumference / 100) *
+            circle.percentage}, ${circle.circumference}`
+        );
+      }, 50);
       pieEl.append(svg);
 
       $('<div/>', {
@@ -1109,9 +1060,7 @@ export function MapLoader_dolya() {
             ' \nДоля корректно закрепленных клиентов, % ' +
             e[color] +
             ' \nВсего клиентов: ' +
-            (customer === 'UDGO_CUSTOMER'
-              ? mapCollection.udgos[e[name]][customer].toLocaleString()
-              : e[customer])
+            e[customer]
         );
       }
 
@@ -1140,11 +1089,7 @@ export function MapLoader_dolya() {
                   ' \nДоля корректно закрепленных клиентов, % ' +
                   entry[color] +
                   ' \nВсего клиентов: ' +
-                  (customer === 'UDGO_CUSTOMER'
-                    ? mapCollection.udgos[entry[name]][
-                        customer
-                      ].toLocaleString()
-                    : entry[customer])
+                  entry[customer]
               )
               .style('left', d3.event.pageX + 'px')
               .style('top', d3.event.pageY - 20 + 'px');

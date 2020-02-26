@@ -1,492 +1,2116 @@
 [
   {
-    "ROO": "РОО «Архангельский»",
-    "ROO_ID": "0192",
-    "ROO_CUST_CNT": "2 576",
-    "ROO_TP_CNT": "12",
-    "ROO_PM_CNT": "30"
+    "ROO": "&nbsp;",
+    "ROO_ID": "&nbsp;",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "33",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "#",
+    "ROO_ID": "#",
+    "ROO_CUST_CNT": "76 666",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "0"
+  },
+  {
+    "ROO": "==NUL==",
+    "ROO_ID": "==NUL==",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "_Новые точки Москва и МО",
+    "ROO_ID": "NN01",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "_Новые точки Регионы",
+    "ROO_ID": "NN02",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "virt Развитие и оптимизация сети Москва",
+    "ROO_ID": "IO_M",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "virt Развитие и оптимизация сети Регионы",
+    "ROO_ID": "IO_R",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ДО &quot;Тургеневский&quot; Филиала в г. Москве",
+    "ROO_ID": "5091",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ДО №3 &quot;Тургеневский&quot; Банка ВТБ (ПАО)",
+    "ROO_ID": "4925",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "Историческая розница ВТБ",
+    "ROO_ID": "724402_HRVTB",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
   },
   {
     "ROO": "РОО «Архангельский»",
+    "ROO_ID": "0192",
+    "ROO_CUST_CNT": "3 174",
+    "ROO_TP_CNT": "18",
+    "ROO_PM_CNT": "13"
+  },
+  {
+    "ROO": "РОО «Архангельский» Филиала № 7806 Банка ВТБ (ПАО)",
+    "ROO_ID": "1039",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "18",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Астраханский»",
     "ROO_ID": "1020",
-    "ROO_CUST_CNT": "1 179",
-    "ROO_TP_CNT": "5",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "1 358",
+    "ROO_TP_CNT": "15",
+    "ROO_PM_CNT": "4"
+  },
+  {
+    "ROO": "РОО «Астраханский» Филиала № 2351 Банка ВТБ (ПАО)",
+    "ROO_ID": "1020",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "13",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Банк ВТБ в Татарстане»",
+    "ROO_ID": "2064",
+    "ROO_CUST_CNT": "8 221",
+    "ROO_TP_CNT": "64",
+    "ROO_PM_CNT": "35"
   },
   {
     "ROO": "РОО «Банк ВТБ в Татарстане» Филиала № 6318 Банка ВТБ (ПАО)",
     "ROO_ID": "2064",
-    "ROO_CUST_CNT": "6 531",
-    "ROO_TP_CNT": "35",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "56",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Барнаульский»",
+    "ROO_ID": "1014",
+    "ROO_CUST_CNT": "5 351",
+    "ROO_TP_CNT": "37",
+    "ROO_PM_CNT": "22"
   },
   {
     "ROO": "РОО «Барнаульский» Филиала № 5440 Банка ВТБ (ПАО)",
     "ROO_ID": "1014",
-    "ROO_CUST_CNT": "4 824",
-    "ROO_TP_CNT": "20",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "34",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Белгородский»",
+    "ROO_ID": "1016",
+    "ROO_CUST_CNT": "6 301",
+    "ROO_TP_CNT": "21",
+    "ROO_PM_CNT": "18"
   },
   {
     "ROO": "РОО «Белгородский» Филиала № 3652 Банка ВТБ (ПАО)",
     "ROO_ID": "1016",
-    "ROO_CUST_CNT": "5 651",
-    "ROO_TP_CNT": "14",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "19",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Благовещенский»",
+    "ROO_ID": "0956",
+    "ROO_CUST_CNT": "2 208",
+    "ROO_TP_CNT": "18",
+    "ROO_PM_CNT": "3"
   },
   {
     "ROO": "РОО «Благовещенский» Филиала № 2754 Банка ВТБ (ПАО)",
     "ROO_ID": "0956",
-    "ROO_CUST_CNT": "1 872",
-    "ROO_TP_CNT": "13",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "17",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Братский» Филиала № 5440 Банка ВТБ (ПАО)",
+    "ROO_ID": "2013",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "12",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Брянский»",
+    "ROO_ID": "1066",
+    "ROO_CUST_CNT": "1 335",
+    "ROO_TP_CNT": "12",
+    "ROO_PM_CNT": "4"
   },
   {
     "ROO": "РОО «Брянский» Филиала № 3652 Банка ВТБ (ПАО)",
     "ROO_ID": "1066",
-    "ROO_CUST_CNT": "1 149",
-    "ROO_TP_CNT": "6",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "11",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Владивостокский»",
+    "ROO_ID": "1054",
+    "ROO_CUST_CNT": "5 640",
+    "ROO_TP_CNT": "32",
+    "ROO_PM_CNT": "18"
   },
   {
     "ROO": "РОО «Владивостокский» Филиала № 2754 Банка ВТБ (ПАО)",
     "ROO_ID": "1054",
-    "ROO_CUST_CNT": "5 303",
-    "ROO_TP_CNT": "17",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "30",
+    "ROO_PM_CNT": "&nbsp;"
   },
   {
     "ROO": "РОО «Владикавказский»",
     "ROO_ID": "5585",
-    "ROO_CUST_CNT": "450",
-    "ROO_TP_CNT": "5",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "555",
+    "ROO_TP_CNT": "10",
+    "ROO_PM_CNT": "2"
+  },
+  {
+    "ROO": "РОО «Владимирский»",
+    "ROO_ID": "0851",
+    "ROO_CUST_CNT": "2 564",
+    "ROO_TP_CNT": "18",
+    "ROO_PM_CNT": "8"
   },
   {
     "ROO": "РОО «Владимирский» Филиала № 3652 Банка ВТБ (ПАО)",
     "ROO_ID": "0851",
-    "ROO_CUST_CNT": "2 206",
-    "ROO_TP_CNT": "10",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "15",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Волгоградский»",
+    "ROO_ID": "1008",
+    "ROO_CUST_CNT": "4 768",
+    "ROO_TP_CNT": "35",
+    "ROO_PM_CNT": "21"
   },
   {
     "ROO": "РОО «Волгоградский» Филиала № 2351 Банка ВТБ (ПАО)",
     "ROO_ID": "1008",
-    "ROO_CUST_CNT": "4 117",
-    "ROO_TP_CNT": "18",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "32",
+    "ROO_PM_CNT": "&nbsp;"
   },
   {
     "ROO": "РОО «Воронежский»",
     "ROO_ID": "4041",
-    "ROO_CUST_CNT": "3 850",
-    "ROO_TP_CNT": "20",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "4 486",
+    "ROO_TP_CNT": "37",
+    "ROO_PM_CNT": "16"
   },
   {
     "ROO": "РОО «Екатеринбургский»",
     "ROO_ID": "4323",
-    "ROO_CUST_CNT": "5 411",
-    "ROO_TP_CNT": "50",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «Ивановский» Филиала № 3652 Банка ВТБ (ПАО)",
-    "ROO_ID": "0751",
-    "ROO_CUST_CNT": "1 376",
-    "ROO_TP_CNT": "5",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «Ижевский» Филиала № 6318 Банка ВТБ (ПАО)",
-    "ROO_ID": "1057",
-    "ROO_CUST_CNT": "2 017",
-    "ROO_TP_CNT": "14",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «Иркутский» Филиала № 5440 Банка ВТБ (ПАО)",
-    "ROO_ID": "2011",
-    "ROO_CUST_CNT": "6 789",
-    "ROO_TP_CNT": "33",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «Йошкар-Олинский» Филиала № 6318 Банка ВТБ (ПАО)",
-    "ROO_ID": "1009",
-    "ROO_CUST_CNT": "1 167",
-    "ROO_TP_CNT": "7",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «Калининградский»",
-    "ROO_ID": "0594",
-    "ROO_CUST_CNT": "3 423",
-    "ROO_TP_CNT": "11",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «Калужский» Филиала № 3652 Банка ВТБ (ПАО)",
-    "ROO_ID": "0651",
-    "ROO_CUST_CNT": "1 958",
-    "ROO_TP_CNT": "6",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «Камчатский» Филиала № 2754 Банка ВТБ (ПАО)",
-    "ROO_ID": "1156",
-    "ROO_CUST_CNT": "2 054",
-    "ROO_TP_CNT": "6",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «Кировский» Филиала № 6318 Банка ВТБ (ПАО)",
-    "ROO_ID": "1018",
-    "ROO_CUST_CNT": "1 737",
-    "ROO_TP_CNT": "10",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «Костромской» филиала № 3652 Банка ВТБ (ПАО)",
-    "ROO_ID": "2551",
-    "ROO_CUST_CNT": "787",
-    "ROO_TP_CNT": "5",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «Краснодарский»",
-    "ROO_ID": "3459",
-    "ROO_CUST_CNT": "7 200",
-    "ROO_TP_CNT": "35",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «Липецкий» Филиала № 3652 Банка ВТБ (ПАО)",
-    "ROO_ID": "1051",
-    "ROO_CUST_CNT": "1 419",
-    "ROO_TP_CNT": "8",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «Магаданский» Филиала № 2754 Банка ВТБ (ПАО)",
-    "ROO_ID": "1956",
-    "ROO_CUST_CNT": "1 969",
-    "ROO_TP_CNT": "2",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «Майкопский» Филиала № 2351 Банка ВТБ (ПАО)",
-    "ROO_ID": "4655",
-    "ROO_CUST_CNT": "15",
-    "ROO_TP_CNT": "1",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «МиМО»",
-    "ROO_ID": "777777",
-    "ROO_CUST_CNT": "299 682",
-    "ROO_TP_CNT": "302",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «Мурманский»",
-    "ROO_ID": "0795",
-    "ROO_CUST_CNT": "3 386",
-    "ROO_TP_CNT": "14",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «Нижегородский» Филиала № 6318 Банка ВТБ (ПАО)",
-    "ROO_ID": "1050",
-    "ROO_CUST_CNT": "4 738",
-    "ROO_TP_CNT": "28",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «Новгородский»",
-    "ROO_ID": "0193",
-    "ROO_CUST_CNT": "1 358",
-    "ROO_TP_CNT": "4",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «Новомосковский» Филиала № 3652 Банка ВТБ (ПАО)",
-    "ROO_ID": "1045",
-    "ROO_CUST_CNT": "4 209",
-    "ROO_TP_CNT": "19",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «Новосибирский»",
-    "ROO_ID": "2424",
-    "ROO_CUST_CNT": "7 737",
-    "ROO_TP_CNT": "40",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «Омский» Филиала № 5440 Банка ВТБ (ПАО)",
-    "ROO_ID": "1043",
-    "ROO_CUST_CNT": "3 443",
-    "ROO_TP_CNT": "15",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «Орловский» Филиала № 3652 Банка ВТБ (ПАО)",
-    "ROO_ID": "2751",
-    "ROO_CUST_CNT": "1 127",
-    "ROO_TP_CNT": "5",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «Пензенский» Филиала № 6318 Банка ВТБ (ПАО)",
-    "ROO_ID": "1218",
-    "ROO_CUST_CNT": "1 603",
-    "ROO_TP_CNT": "11",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «Петрозаводский»",
-    "ROO_ID": "0196",
-    "ROO_CUST_CNT": "1 617",
-    "ROO_TP_CNT": "10",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «Псковский»",
-    "ROO_ID": "0297",
-    "ROO_CUST_CNT": "763",
-    "ROO_TP_CNT": "5",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «Ростовский» Филиала № 2351 Банка ВТБ (ПАО)",
-    "ROO_ID": "2005",
-    "ROO_CUST_CNT": "7 570",
-    "ROO_TP_CNT": "36",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «Рязанский» Филиала № 3652 Банка ВТБ (ПАО)",
-    "ROO_ID": "1251",
-    "ROO_CUST_CNT": "1 727",
-    "ROO_TP_CNT": "6",
-    "ROO_PM_CNT": "30"
-  },
-  {
-    "ROO": "РОО «СПбиЛО»",
-    "ROO_ID": "999999",
-    "ROO_CUST_CNT": "38 967",
+    "ROO_CUST_CNT": "7 684",
     "ROO_TP_CNT": "97",
     "ROO_PM_CNT": "30"
   },
   {
+    "ROO": "РОО «Ивановский»",
+    "ROO_ID": "0751",
+    "ROO_CUST_CNT": "1 874",
+    "ROO_TP_CNT": "10",
+    "ROO_PM_CNT": "6"
+  },
+  {
+    "ROO": "РОО «Ивановский» Филиала № 3652 Банка ВТБ (ПАО)",
+    "ROO_ID": "0751",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "10",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Ижевский»",
+    "ROO_ID": "1057",
+    "ROO_CUST_CNT": "2 319",
+    "ROO_TP_CNT": "24",
+    "ROO_PM_CNT": "10"
+  },
+  {
+    "ROO": "РОО «Ижевский» Филиала № 6318 Банка ВТБ (ПАО)",
+    "ROO_ID": "1057",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "21",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Иркутский»",
+    "ROO_ID": "2011",
+    "ROO_CUST_CNT": "7 818",
+    "ROO_TP_CNT": "47",
+    "ROO_PM_CNT": "21"
+  },
+  {
+    "ROO": "РОО «Иркутский» Филиала № 5440 Банка ВТБ (ПАО)",
+    "ROO_ID": "2011",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "34",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Йошкар-Олинский»",
+    "ROO_ID": "1009",
+    "ROO_CUST_CNT": "1 423",
+    "ROO_TP_CNT": "12",
+    "ROO_PM_CNT": "8"
+  },
+  {
+    "ROO": "РОО «Йошкар-Олинский» Филиала № 6318 Банка ВТБ (ПАО)",
+    "ROO_ID": "1009",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "10",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Калининградский»",
+    "ROO_ID": "0594",
+    "ROO_CUST_CNT": "3 663",
+    "ROO_TP_CNT": "17",
+    "ROO_PM_CNT": "12"
+  },
+  {
+    "ROO": "РОО «Калининградский» Филиала № 7806 Банка ВТБ (ПАО)",
+    "ROO_ID": "1038",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "17",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Калужский»",
+    "ROO_ID": "0651",
+    "ROO_CUST_CNT": "2 249",
+    "ROO_TP_CNT": "12",
+    "ROO_PM_CNT": "10"
+  },
+  {
+    "ROO": "РОО «Калужский» Филиала № 3652 Банка ВТБ (ПАО)",
+    "ROO_ID": "0651",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "10",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Камчатский»",
+    "ROO_ID": "1156",
+    "ROO_CUST_CNT": "2 221",
+    "ROO_TP_CNT": "9",
+    "ROO_PM_CNT": "6"
+  },
+  {
+    "ROO": "РОО «Камчатский» Филиала № 2754 Банка ВТБ (ПАО)",
+    "ROO_ID": "1156",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "7",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Кировский»",
+    "ROO_ID": "1018",
+    "ROO_CUST_CNT": "1 862",
+    "ROO_TP_CNT": "14",
+    "ROO_PM_CNT": "5"
+  },
+  {
+    "ROO": "РОО «Кировский» Филиала № 6318 Банка ВТБ (ПАО)",
+    "ROO_ID": "1018",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "11",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Костромской»",
+    "ROO_ID": "2551",
+    "ROO_CUST_CNT": "901",
+    "ROO_TP_CNT": "11",
+    "ROO_PM_CNT": "3"
+  },
+  {
+    "ROO": "РОО «Костромской» филиала № 3652 Банка ВТБ (ПАО)",
+    "ROO_ID": "2551",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "10",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Краснодарский»",
+    "ROO_ID": "3459",
+    "ROO_CUST_CNT": "8 548",
+    "ROO_TP_CNT": "60",
+    "ROO_PM_CNT": "29"
+  },
+  {
+    "ROO": "РОО «Красноярский»",
+    "ROO_ID": "2046",
+    "ROO_CUST_CNT": "5 908",
+    "ROO_TP_CNT": "61",
+    "ROO_PM_CNT": "17"
+  },
+  {
+    "ROO": "РОО «Кузбасский»",
+    "ROO_ID": "2007",
+    "ROO_CUST_CNT": "7 127",
+    "ROO_TP_CNT": "65",
+    "ROO_PM_CNT": "25"
+  },
+  {
+    "ROO": "РОО «Кузбасский» Филиала № 5440 Банка ВТБ (ПАО)",
+    "ROO_ID": "2007",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "2",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Курганский» Филиала № 6602 Банка ВТБ (ПАО)",
+    "ROO_ID": "2302",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "6",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Курский»",
+    "ROO_ID": "1751",
+    "ROO_CUST_CNT": "2 464",
+    "ROO_TP_CNT": "41",
+    "ROO_PM_CNT": "8"
+  },
+  {
+    "ROO": "РОО «Курский» филиала № 3652 Банка ВТБ (ПАО)",
+    "ROO_ID": "1751",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "2",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Липецкий»",
+    "ROO_ID": "1051",
+    "ROO_CUST_CNT": "1 650",
+    "ROO_TP_CNT": "11",
+    "ROO_PM_CNT": "5"
+  },
+  {
+    "ROO": "РОО «Липецкий» Филиала № 3652 Банка ВТБ (ПАО)",
+    "ROO_ID": "1051",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "10",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Магаданский»",
+    "ROO_ID": "1956",
+    "ROO_CUST_CNT": "2 173",
+    "ROO_TP_CNT": "6",
+    "ROO_PM_CNT": "4"
+  },
+  {
+    "ROO": "РОО «Магаданский» Филиала № 2754 Банка ВТБ (ПАО)",
+    "ROO_ID": "1956",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "5",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Майкопский»",
+    "ROO_ID": "4655",
+    "ROO_CUST_CNT": "27",
+    "ROO_TP_CNT": "4",
+    "ROO_PM_CNT": "0"
+  },
+  {
+    "ROO": "РОО «Майкопский» Филиала № 2351 Банка ВТБ (ПАО)",
+    "ROO_ID": "4655",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "3",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Мурманский»",
+    "ROO_ID": "0795",
+    "ROO_CUST_CNT": "3 805",
+    "ROO_TP_CNT": "17",
+    "ROO_PM_CNT": "16"
+  },
+  {
+    "ROO": "РОО «Мурманский» Филиала № 7806 Банка ВТБ (ПАО)",
+    "ROO_ID": "4506",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "16",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Нальчикский» Филиала № 2351 Банка ВТБ (ПАО)",
+    "ROO_ID": "1755",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "4",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Нижегородский»",
+    "ROO_ID": "1050",
+    "ROO_CUST_CNT": "5 592",
+    "ROO_TP_CNT": "49",
+    "ROO_PM_CNT": "24"
+  },
+  {
+    "ROO": "РОО «Нижегородский» Филиала № 6318 Банка ВТБ (ПАО)",
+    "ROO_ID": "1050",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "43",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Новгородский»",
+    "ROO_ID": "0193",
+    "ROO_CUST_CNT": "1 500",
+    "ROO_TP_CNT": "8",
+    "ROO_PM_CNT": "4"
+  },
+  {
+    "ROO": "РОО «Новгородский» Филиала № 7806 Банка ВТБ (ПАО)",
+    "ROO_ID": "0926",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "7",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Новомосковский» Филиала № 3652 Банка ВТБ (ПАО)",
+    "ROO_ID": "1045",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "25",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Новосибирский»",
+    "ROO_ID": "2424",
+    "ROO_CUST_CNT": "8 368",
+    "ROO_TP_CNT": "76",
+    "ROO_PM_CNT": "28"
+  },
+  {
+    "ROO": "РОО «Омский»",
+    "ROO_ID": "1043",
+    "ROO_CUST_CNT": "3 982",
+    "ROO_TP_CNT": "27",
+    "ROO_PM_CNT": "13"
+  },
+  {
+    "ROO": "РОО «Омский» Филиала № 5440 Банка ВТБ (ПАО)",
+    "ROO_ID": "1043",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "26",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Оренбургский»",
+    "ROO_ID": "1061",
+    "ROO_CUST_CNT": "2 798",
+    "ROO_TP_CNT": "42",
+    "ROO_PM_CNT": "10"
+  },
+  {
+    "ROO": "РОО «Орловский»",
+    "ROO_ID": "2751",
+    "ROO_CUST_CNT": "1 283",
+    "ROO_TP_CNT": "10",
+    "ROO_PM_CNT": "4"
+  },
+  {
+    "ROO": "РОО «Орловский» Филиала № 3652 Банка ВТБ (ПАО)",
+    "ROO_ID": "2751",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "9",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Пензенский»",
+    "ROO_ID": "1218",
+    "ROO_CUST_CNT": "1 860",
+    "ROO_TP_CNT": "16",
+    "ROO_PM_CNT": "9"
+  },
+  {
+    "ROO": "РОО «Пензенский» Филиала № 6318 Банка ВТБ (ПАО)",
+    "ROO_ID": "1218",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "15",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Пермский»",
+    "ROO_ID": "2042",
+    "ROO_CUST_CNT": "5 804",
+    "ROO_TP_CNT": "54",
+    "ROO_PM_CNT": "16"
+  },
+  {
+    "ROO": "РОО «Пермский» Филиала № 6318 Банка ВТБ (ПАО)",
+    "ROO_ID": "2042",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Петрозаводский»",
+    "ROO_ID": "0196",
+    "ROO_CUST_CNT": "1 778",
+    "ROO_TP_CNT": "15",
+    "ROO_PM_CNT": "5"
+  },
+  {
+    "ROO": "РОО «Петрозаводский» Филиала № 7806 Банка ВТБ (ПАО)",
+    "ROO_ID": "1065",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "15",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Псковский»",
+    "ROO_ID": "0297",
+    "ROO_CUST_CNT": "852",
+    "ROO_TP_CNT": "7",
+    "ROO_PM_CNT": "4"
+  },
+  {
+    "ROO": "РОО «Псковский» Филиала № 7806 Банка ВТБ (ПАО)",
+    "ROO_ID": "2006",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "7",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Ростовский&quot;Филиала № 2351 Банка ВТБ (ПАО)",
+    "ROO_ID": "2005",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "4",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Ростовский»",
+    "ROO_ID": "2005",
+    "ROO_CUST_CNT": "8 165",
+    "ROO_TP_CNT": "66",
+    "ROO_PM_CNT": "25"
+  },
+  {
+    "ROO": "РОО «Ростовский» Филиала № 2351 Банка ВТБ (ПАО)",
+    "ROO_ID": "2005",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "53",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Рязанский»",
+    "ROO_ID": "1251",
+    "ROO_CUST_CNT": "2 044",
+    "ROO_TP_CNT": "11",
+    "ROO_PM_CNT": "8"
+  },
+  {
+    "ROO": "РОО «Рязанский» Филиала № 3652 Банка ВТБ (ПАО)",
+    "ROO_ID": "1251",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "9",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
     "ROO": "РОО «Самарский»",
     "ROO_ID": "1262",
-    "ROO_CUST_CNT": "8 055",
-    "ROO_TP_CNT": "38",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "9 548",
+    "ROO_TP_CNT": "55",
+    "ROO_PM_CNT": "33"
+  },
+  {
+    "ROO": "РОО «Саранский»",
+    "ROO_ID": "0818",
+    "ROO_CUST_CNT": "480",
+    "ROO_TP_CNT": "8",
+    "ROO_PM_CNT": "3"
   },
   {
     "ROO": "РОО «Саранский» Филиала № 6318 Банка ВТБ (ПАО)",
     "ROO_ID": "0818",
-    "ROO_CUST_CNT": "382",
-    "ROO_TP_CNT": "4",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "8",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Саратовский»",
+    "ROO_ID": "1052",
+    "ROO_CUST_CNT": "2 934",
+    "ROO_TP_CNT": "33",
+    "ROO_PM_CNT": "9"
   },
   {
     "ROO": "РОО «Саратовский» Филиала № 6318 Банка ВТБ (ПАО)",
     "ROO_ID": "1052",
-    "ROO_CUST_CNT": "2 552",
-    "ROO_TP_CNT": "23",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "31",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Сахалинский»",
+    "ROO_ID": "0856",
+    "ROO_CUST_CNT": "2 793",
+    "ROO_TP_CNT": "16",
+    "ROO_PM_CNT": "5"
+  },
+  {
+    "ROO": "РОО «Сахалинский» Филиала № 2754 Банка (ПАО)",
+    "ROO_ID": "0856",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
   },
   {
     "ROO": "РОО «Сахалинский» Филиала № 2754 Банка ВТБ (ПАО)",
     "ROO_ID": "0856",
-    "ROO_CUST_CNT": "2 393",
-    "ROO_TP_CNT": "6",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "12",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Северо-Осетинский» Филиала № 2351 Банка ВТБ (ПАО)",
+    "ROO_ID": "1655",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "9",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Смоленский»",
+    "ROO_ID": "1044",
+    "ROO_CUST_CNT": "1 393",
+    "ROO_TP_CNT": "12",
+    "ROO_PM_CNT": "4"
   },
   {
     "ROO": "РОО «Смоленский» Филиала № 3652 Банка ВТБ (ПАО)",
     "ROO_ID": "1044",
-    "ROO_CUST_CNT": "1 170",
-    "ROO_TP_CNT": "8",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "11",
+    "ROO_PM_CNT": "&nbsp;"
   },
   {
     "ROO": "РОО «Ставропольский»",
     "ROO_ID": "5545",
-    "ROO_CUST_CNT": "4 206",
-    "ROO_TP_CNT": "17",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "4 855",
+    "ROO_TP_CNT": "42",
+    "ROO_PM_CNT": "15"
+  },
+  {
+    "ROO": "РОО «Ставропольский» Филиала № 2351 Банка ВТБ (ПАО)",
+    "ROO_ID": "1059",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "26",
+    "ROO_PM_CNT": "&nbsp;"
   },
   {
     "ROO": "РОО «Сыктывкарский»",
     "ROO_ID": "0591",
-    "ROO_CUST_CNT": "2 199",
-    "ROO_TP_CNT": "7",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "2 547",
+    "ROO_TP_CNT": "9",
+    "ROO_PM_CNT": "8"
+  },
+  {
+    "ROO": "РОО «Сыктывкарский» Филиала № 7806 Банка ВТБ (ПАО)",
+    "ROO_ID": "1004",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "9",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Тамбовский»",
+    "ROO_ID": "0951",
+    "ROO_CUST_CNT": "1 177",
+    "ROO_TP_CNT": "9",
+    "ROO_PM_CNT": "5"
   },
   {
     "ROO": "РОО «Тамбовский» Филиала № 3652 Банка ВТБ (ПАО)",
     "ROO_ID": "0951",
-    "ROO_CUST_CNT": "982",
-    "ROO_TP_CNT": "6",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "8",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Тверской»",
+    "ROO_ID": "1351",
+    "ROO_CUST_CNT": "1 739",
+    "ROO_TP_CNT": "14",
+    "ROO_PM_CNT": "5"
   },
   {
     "ROO": "РОО «Тверской» Филиала № 3652 Банка ВТБ (ПАО)",
     "ROO_ID": "1351",
-    "ROO_CUST_CNT": "1 570",
-    "ROO_TP_CNT": "10",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "13",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Тольяттинский» Филиала № 6318 Банка ВТБ (ПАО)",
+    "ROO_ID": "1019",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "14",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Томский»",
+    "ROO_ID": "1440",
+    "ROO_CUST_CNT": "2 180",
+    "ROO_TP_CNT": "13",
+    "ROO_PM_CNT": "8"
   },
   {
     "ROO": "РОО «Томский» Филиала № 5440 Банка ВТБ (ПАО)",
     "ROO_ID": "1440",
-    "ROO_CUST_CNT": "1 924",
-    "ROO_TP_CNT": "9",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "12",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Тульский»",
+    "ROO_ID": "1045",
+    "ROO_CUST_CNT": "5 582",
+    "ROO_TP_CNT": "29",
+    "ROO_PM_CNT": "17"
+  },
+  {
+    "ROO": "РОО «Тюменский»",
+    "ROO_ID": "1015",
+    "ROO_CUST_CNT": "5 460",
+    "ROO_TP_CNT": "22",
+    "ROO_PM_CNT": "22"
   },
   {
     "ROO": "РОО «Тюменский» Филиала № 6602 Банка ВТБ (ПАО)",
     "ROO_ID": "1015",
-    "ROO_CUST_CNT": "4 576",
-    "ROO_TP_CNT": "15",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "20",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Улан-Удэнский»",
+    "ROO_ID": "1071",
+    "ROO_CUST_CNT": "2 009",
+    "ROO_TP_CNT": "12",
+    "ROO_PM_CNT": "6"
   },
   {
     "ROO": "РОО «Улан-Удэнский» Филиала № 5440 Банка ВТБ (ПАО)",
     "ROO_ID": "1071",
-    "ROO_CUST_CNT": "1 870",
-    "ROO_TP_CNT": "7",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "11",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Ульяновский»",
+    "ROO_ID": "1031",
+    "ROO_CUST_CNT": "3 942",
+    "ROO_TP_CNT": "18",
+    "ROO_PM_CNT": "6"
   },
   {
     "ROO": "РОО «Ульяновский» Филиала № 6318 Банка ВТБ (ПАО)",
     "ROO_ID": "1031",
-    "ROO_CUST_CNT": "1 499",
-    "ROO_TP_CNT": "8",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "17",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Уфимский»",
+    "ROO_ID": "1062",
+    "ROO_CUST_CNT": "4 556",
+    "ROO_TP_CNT": "43",
+    "ROO_PM_CNT": "22"
   },
   {
     "ROO": "РОО «Хабаровский»",
     "ROO_ID": "2954",
-    "ROO_CUST_CNT": "7 896",
-    "ROO_TP_CNT": "21",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "8 683",
+    "ROO_TP_CNT": "38",
+    "ROO_PM_CNT": "21"
+  },
+  {
+    "ROO": "РОО «Хабаровский»",
+    "ROO_ID": "2957",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Ханты-Мансийский»",
+    "ROO_ID": "4215",
+    "ROO_CUST_CNT": "5 971",
+    "ROO_TP_CNT": "25",
+    "ROO_PM_CNT": "24"
   },
   {
     "ROO": "РОО «Ханты-Мансийский» Филиала № 6602 Банка ВТБ (ПАО)",
     "ROO_ID": "4215",
-    "ROO_CUST_CNT": "5 273",
-    "ROO_TP_CNT": "17",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "24",
+    "ROO_PM_CNT": "&nbsp;"
   },
   {
     "ROO": "РОО «Центральный в Кемерове» Филиала № 5440 Банка ВТБ (ПАО)",
     "ROO_ID": "2007",
-    "ROO_CUST_CNT": "6 396",
-    "ROO_TP_CNT": "37",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "59",
+    "ROO_PM_CNT": "&nbsp;"
   },
   {
     "ROO": "РОО «Центральный в Красноярске» Филиала № 5440 Банка ВТБ (ПАО)",
     "ROO_ID": "2046",
-    "ROO_CUST_CNT": "3 545",
-    "ROO_TP_CNT": "31",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "54",
+    "ROO_PM_CNT": "&nbsp;"
   },
   {
     "ROO": "РОО «Центральный в Курске» Филиала № 3652 Банка ВТБ (ПАО)",
     "ROO_ID": "1751",
-    "ROO_CUST_CNT": "2 009",
-    "ROO_TP_CNT": "18",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "36",
+    "ROO_PM_CNT": "&nbsp;"
   },
   {
     "ROO": "РОО «Центральный в Оренбурге» Филиала № 6318 Банка ВТБ (ПАО)",
     "ROO_ID": "1061",
-    "ROO_CUST_CNT": "2 459",
-    "ROO_TP_CNT": "18",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "36",
+    "ROO_PM_CNT": "&nbsp;"
   },
   {
     "ROO": "РОО «Центральный в Перми» Филиала № 6318 Банка ВТБ (ПАО)",
     "ROO_ID": "2042",
-    "ROO_CUST_CNT": "4 945",
-    "ROO_TP_CNT": "30",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "48",
+    "ROO_PM_CNT": "&nbsp;"
   },
   {
     "ROO": "РОО «Центральный в Уфе» Филиала № 6318 Банка ВТБ (ПАО)",
     "ROO_ID": "1062",
-    "ROO_CUST_CNT": "4 126",
-    "ROO_TP_CNT": "23",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "39",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Чебоксарский»",
+    "ROO_ID": "1053",
+    "ROO_CUST_CNT": "2 657",
+    "ROO_TP_CNT": "17",
+    "ROO_PM_CNT": "7"
   },
   {
     "ROO": "РОО «Чебоксарский» Филиала № 6318 Банка ВТБ (ПАО)",
     "ROO_ID": "1053",
-    "ROO_CUST_CNT": "2 365",
-    "ROO_TP_CNT": "10",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "15",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Челябинский»",
+    "ROO_ID": "2049",
+    "ROO_CUST_CNT": "6 381",
+    "ROO_TP_CNT": "61",
+    "ROO_PM_CNT": "25"
   },
   {
     "ROO": "РОО «Челябинский» Филиала № 6602 Банка ВТБ (ПАО)",
     "ROO_ID": "2049",
-    "ROO_CUST_CNT": "5 548",
-    "ROO_TP_CNT": "33",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "53",
+    "ROO_PM_CNT": "&nbsp;"
   },
   {
     "ROO": "РОО «Череповецкий»",
     "ROO_ID": "1589",
-    "ROO_CUST_CNT": "4 899",
-    "ROO_TP_CNT": "18",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "5 518",
+    "ROO_TP_CNT": "26",
+    "ROO_PM_CNT": "16"
+  },
+  {
+    "ROO": "РОО «Череповецкий» Филиала № 7806 Банка ВТБ (ПАО)",
+    "ROO_ID": "3060",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "26",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Читинский»",
+    "ROO_ID": "0540",
+    "ROO_CUST_CNT": "2 457",
+    "ROO_TP_CNT": "21",
+    "ROO_PM_CNT": "5"
   },
   {
     "ROO": "РОО «Читинский» Филиала № 5440 Банка ВТБ (ПАО)",
     "ROO_ID": "0540",
-    "ROO_CUST_CNT": "1 735",
-    "ROO_TP_CNT": "17",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "20",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Якутский»",
+    "ROO_ID": "1056",
+    "ROO_CUST_CNT": "3 439",
+    "ROO_TP_CNT": "19",
+    "ROO_PM_CNT": "8"
   },
   {
     "ROO": "РОО «Якутский» Филиала № 2754 Банка ВТБ (ПАО)",
     "ROO_ID": "1056",
-    "ROO_CUST_CNT": "3 111",
-    "ROO_TP_CNT": "12",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "18",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Ямальский»",
+    "ROO_ID": "1815",
+    "ROO_CUST_CNT": "2 103",
+    "ROO_TP_CNT": "10",
+    "ROO_PM_CNT": "8"
   },
   {
     "ROO": "РОО «Ямальский» Филиала № 6602 Банка ВТБ (ПАО)",
     "ROO_ID": "1815",
-    "ROO_CUST_CNT": "1 778",
-    "ROO_TP_CNT": "7",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "10",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "РОО «Ярославский»",
+    "ROO_ID": "1068",
+    "ROO_CUST_CNT": "3 990",
+    "ROO_TP_CNT": "18",
+    "ROO_PM_CNT": "15"
   },
   {
     "ROO": "РОО «Ярославский» Филиала № 3652 Банка ВТБ (ПАО)",
     "ROO_ID": "1068",
-    "ROO_CUST_CNT": "3 458",
-    "ROO_TP_CNT": "12",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "17",
+    "ROO_PM_CNT": "&nbsp;"
   },
   {
-    "ROO": "Филиал Банка ВТБ (ПАО) в г. Ставрополе",
-    "ROO_ID": "00080",
+    "ROO": "РОО МиМО",
+    "ROO_ID": "777777",
+    "ROO_CUST_CNT": "180 152",
+    "ROO_TP_CNT": "696",
+    "ROO_PM_CNT": "527"
+  },
+  {
+    "ROO": "РОО СПБиЛО",
+    "ROO_ID": "999999",
+    "ROO_CUST_CNT": "44 843",
+    "ROO_TP_CNT": "162",
+    "ROO_PM_CNT": "118"
+  },
+  {
+    "ROO": "ТКБ Астраханская область",
+    "ROO_ID": "F1020",
     "ROO_CUST_CNT": "0",
     "ROO_TP_CNT": "1",
-    "ROO_PM_CNT": "30"
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Белгородская область",
+    "ROO_ID": "F1016",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Брянская область",
+    "ROO_ID": "F1066",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Владимирская область",
+    "ROO_ID": "F0851",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Волгоградская область",
+    "ROO_ID": "F1008",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Вологодская область",
+    "ROO_ID": "F3060",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Воронежская область",
+    "ROO_ID": "F0051",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Еврейская АО",
+    "ROO_ID": "F2756",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Забайкальский край",
+    "ROO_ID": "F0540",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Ивановская область",
+    "ROO_ID": "F0751",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Иркутская область",
+    "ROO_ID": "F2011",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Иркутская область (Братск)",
+    "ROO_ID": "F2013",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Калининградская область",
+    "ROO_ID": "F1038",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Калужская область",
+    "ROO_ID": "F0651",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Кемеровская область",
+    "ROO_ID": "F2007",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Костромская область",
+    "ROO_ID": "F2551",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Краснодарский край",
+    "ROO_ID": "F0055",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Красноярский край",
+    "ROO_ID": "F2046",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Курская область",
+    "ROO_ID": "F1751",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Липецкая область",
+    "ROO_ID": "F1051",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Нижегородская область",
+    "ROO_ID": "F1050",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Новосибирская область",
+    "ROO_ID": "F0040",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Оренбургская область",
+    "ROO_ID": "F1061",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Пензенская область",
+    "ROO_ID": "F1218",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Пермский край",
+    "ROO_ID": "F2042",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Республика Башкортостан",
+    "ROO_ID": "F1062",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Республика Бурятия",
+    "ROO_ID": "F1071",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Республика Дагестан",
+    "ROO_ID": "F2455",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Республика Карелия",
+    "ROO_ID": "F1065",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Республика Мордовия",
+    "ROO_ID": "F0818",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Республика Северная Осетия-Алания",
+    "ROO_ID": "F1655",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Республика Татарстан (Татарстан)",
+    "ROO_ID": "F2064",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Ростовская область",
+    "ROO_ID": "F2005",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Самарская область",
+    "ROO_ID": "F0018",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Самарская область (Тольятти)",
+    "ROO_ID": "F1019",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Сахалинская область",
+    "ROO_ID": "F0856",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Свердловская область",
+    "ROO_ID": "F0002",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Ставропольский край",
+    "ROO_ID": "F1059",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Тамбовская область",
+    "ROO_ID": "F0951",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Томская область",
+    "ROO_ID": "F1440",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Тульская область",
+    "ROO_ID": "F1045",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Тюменская область",
+    "ROO_ID": "F1015",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Удмуртская республика",
+    "ROO_ID": "F1057",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Ульяновская область",
+    "ROO_ID": "F1031",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Хабаровский край",
+    "ROO_ID": "F0056",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Челябинская область",
+    "ROO_ID": "F2049",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ Ярославская область",
+    "ROO_ID": "F1068",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ в Алтайском крае",
+    "ROO_ID": "F1014",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ в Амурской области",
+    "ROO_ID": "F0956",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ в Архангельской области",
+    "ROO_ID": "F1039",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ в Кировской области",
+    "ROO_ID": "F1018",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ в Курганской области",
+    "ROO_ID": "F2302",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ в Мурманской области",
+    "ROO_ID": "F4506",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ в Новгородской области",
+    "ROO_ID": "F0926",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ в Омской области",
+    "ROO_ID": "F1043",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ в Орловской области",
+    "ROO_ID": "F2751",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ в Приморском крае",
+    "ROO_ID": "F1054",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ в Псковской области",
+    "ROO_ID": "F2006",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ в Саратовской области",
+    "ROO_ID": "F1052",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБ в Тверской области",
+    "ROO_ID": "F1351",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ТКБсвод",
+    "ROO_ID": "11173",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "Филиал «Дальневосточный» Банка ВТБ (ПАО)",
+    "ROO_ID": "00077",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "Филиал «Приволжский» Банка ВТБ (ПАО)",
+    "ROO_ID": "00074",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "18",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "Филиал «Северо-Западный» Банка ВТБ (ПАО)",
+    "ROO_ID": "04636",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "8",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "Филиал «Северо-Кавказский» Банка ВТБ (ПАО)",
+    "ROO_ID": "05455",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "9",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "Филиал «Сибирский» Банка ВТБ (ПАО)",
+    "ROO_ID": "00075",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "16",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "Филиал «Уральский» Банка ВТБ (ПАО)",
+    "ROO_ID": "00073",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "10",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "Филиал «Южный» Банка ВТБ (ПАО)",
+    "ROO_ID": "00076",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "20",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "Филиал Банка ВТБ (ПАО) в г. Воронеже",
+    "ROO_ID": "02416",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "2",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "Филиал Банка ВТБ (ПАО) в г. Екатеринбурге",
+    "ROO_ID": "04822",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "Филиал Банка ВТБ (ПАО) в г. Кирове",
+    "ROO_ID": "03761",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "Филиал Банка ВТБ (ПАО) в г. Красноярске",
+    "ROO_ID": "05613",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "Филиал Банка ВТБ (ПАО) в г. Москве",
+    "ROO_ID": "00091",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "Филиал Банка ВТБ (ПАО) в г. Нижнем Новгороде",
+    "ROO_ID": "03661",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "Филиал Банка ВТБ (ПАО) в г. Ростове-на-Дону",
+    "ROO_ID": "00717",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "1",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "Филиал Банка ВТБ (ПАО) в г. Хабаровске",
+    "ROO_ID": "04423",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "2",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "Филиал № 2351 Банка ВТБ (ПАО)",
+    "ROO_ID": "00055",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "52",
+    "ROO_PM_CNT": "&nbsp;"
   },
   {
     "ROO": "Филиал № 2754 Банка ВТБ (ПАО)",
     "ROO_ID": "00056",
-    "ROO_CUST_CNT": "26",
-    "ROO_TP_CNT": "1",
-    "ROO_PM_CNT": "30"
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "38",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "Филиал № 3652 Банка ВТБ (ПАО)",
+    "ROO_ID": "00051",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "38",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "Филиал № 5440 Банка ВТБ (ПАО)",
+    "ROO_ID": "00040",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "66",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "Филиал № 6318 Банка ВТБ (ПАО)",
+    "ROO_ID": "00018",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "41",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "Филиал № 6602 Банка ВТБ (ПАО)",
+    "ROO_ID": "00002",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "85",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "Филиал № 7806 Банка ВТБ (ПАО)",
+    "ROO_ID": "00006",
+    "ROO_CUST_CNT": "5",
+    "ROO_TP_CNT": "136",
+    "ROO_PM_CNT": "0"
+  },
+  {
+    "ROO": "роо Архангельский",
+    "ROO_ID": "1039",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "18",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Астраханский",
+    "ROO_ID": "1020",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "13",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Барнаульский",
+    "ROO_ID": "1014",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "34",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Белгородский",
+    "ROO_ID": "1016",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "18",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Благовещенский",
+    "ROO_ID": "0956",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "17",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Братский",
+    "ROO_ID": "2013",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "12",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Брянский",
+    "ROO_ID": "1066",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "11",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Владивостокский",
+    "ROO_ID": "1054",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "30",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Владикавказский",
+    "ROO_ID": "1655",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "9",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Владимирский",
+    "ROO_ID": "0851",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "15",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Волгоградский",
+    "ROO_ID": "1008",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "32",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Ивановский",
+    "ROO_ID": "0751",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "9",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Ижевский",
+    "ROO_ID": "1057",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "21",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Иркутский",
+    "ROO_ID": "2011",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "32",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Йошкар-Олинский",
+    "ROO_ID": "1009",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "10",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Казанский",
+    "ROO_ID": "2064",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "56",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Калининградский",
+    "ROO_ID": "1038",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "17",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Калужский",
+    "ROO_ID": "0651",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "10",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Камчатский",
+    "ROO_ID": "1156",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "7",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Кемеровский",
+    "ROO_ID": "2007",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "42",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Кировский",
+    "ROO_ID": "1018",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "11",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Костромской",
+    "ROO_ID": "2551",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "10",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Красноярский",
+    "ROO_ID": "2046",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "53",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Кузбасский",
+    "ROO_ID": "2007",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "58",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Курганский",
+    "ROO_ID": "2302",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "6",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Курский",
+    "ROO_ID": "1751",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "36",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Липецкий",
+    "ROO_ID": "1051",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "10",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Магаданский",
+    "ROO_ID": "1956",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "5",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Мурманский",
+    "ROO_ID": "4506",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "15",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Нальчикский",
+    "ROO_ID": "1755",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "4",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Нижегородский",
+    "ROO_ID": "1050",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "45",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Новгородский",
+    "ROO_ID": "0926",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "7",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Новомосковский",
+    "ROO_ID": "1045",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "25",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Омский",
+    "ROO_ID": "1043",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "25",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Оренбургский",
+    "ROO_ID": "1061",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "35",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Орловский",
+    "ROO_ID": "2751",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "9",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Пензенский",
+    "ROO_ID": "1218",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "15",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Пермский",
+    "ROO_ID": "2042",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "48",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Петрозаводский",
+    "ROO_ID": "1065",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "15",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Псковский",
+    "ROO_ID": "2006",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "7",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Ростовский",
+    "ROO_ID": "2005",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "54",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Рязанский",
+    "ROO_ID": "1251",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "10",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Саранский",
+    "ROO_ID": "0818",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "8",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Саратовский",
+    "ROO_ID": "1052",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "31",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Сахалинский",
+    "ROO_ID": "0856",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "12",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Смоленский",
+    "ROO_ID": "1044",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "11",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Ставропольский",
+    "ROO_ID": "1059",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "29",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Сыктывкарский",
+    "ROO_ID": "1004",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "9",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Тамбовский",
+    "ROO_ID": "0951",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "8",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Тверской",
+    "ROO_ID": "1351",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "12",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Тольяттинский",
+    "ROO_ID": "1019",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "13",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Томский",
+    "ROO_ID": "1440",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "12",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Тюменский",
+    "ROO_ID": "1015",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "47",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Улан-Удэнский",
+    "ROO_ID": "1071",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "11",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Ульяновский",
+    "ROO_ID": "1031",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "17",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Уфимский",
+    "ROO_ID": "1062",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "38",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Ханты-Мансийский",
+    "ROO_ID": "4215",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "24",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Чебоксарский",
+    "ROO_ID": "1053",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "15",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Челябинский",
+    "ROO_ID": "2049",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "53",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Череповецкий",
+    "ROO_ID": "3060",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "26",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Читинский",
+    "ROO_ID": "0540",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "21",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Якутский",
+    "ROO_ID": "1056",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "18",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Ямальский",
+    "ROO_ID": "1815",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "10",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "роо Ярославский",
+    "ROO_ID": "1068",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "17",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ф-л Воронежский",
+    "ROO_ID": "00051",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "59",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ф-л Екатеринбургский",
+    "ROO_ID": "00002",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "108",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ф-л Краснодарский",
+    "ROO_ID": "00055",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "76",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ф-л Самарский",
+    "ROO_ID": "00018",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "102",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ф-л Северо-Западный",
+    "ROO_ID": "00006",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "154",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ф-л Сибирский",
+    "ROO_ID": "00040",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "101",
+    "ROO_PM_CNT": "&nbsp;"
+  },
+  {
+    "ROO": "ф-л Хабаровский",
+    "ROO_ID": "00056",
+    "ROO_CUST_CNT": "0",
+    "ROO_TP_CNT": "47",
+    "ROO_PM_CNT": "&nbsp;"
   }
 ]

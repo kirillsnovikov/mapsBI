@@ -1,51 +1,65 @@
 [
   {
     "UDGO": "-",
-    "UDGO_CUST_CNT": "85 299",
-    "UDGO_TP_CNT": "11",
-    "UDGO_PM_CNT": "30",
-    "UDGO_BG_CNT": "4"
+    "UDGO_CUST_CNT": "30",
+    "UDGO_TP_CNT": "550",
+    "UDGO_PM_CNT": "0",
+    "UDGO_BG_CNT": "28"
   },
   {
-    "UDGO": "Кимячева Анна Евгеньевна",
-    "UDGO_CUST_CNT": "54 427",
-    "UDGO_TP_CNT": "45",
-    "UDGO_PM_CNT": "30",
-    "UDGO_BG_CNT": "6"
-  },
-  {
-    "UDGO": "Муравлева Лариса Владимировна",
-    "UDGO_CUST_CNT": "42",
-    "UDGO_TP_CNT": "1",
-    "UDGO_PM_CNT": "30",
+    "UDGO": "-",
+    "UDGO_CUST_CNT": "34",
+    "UDGO_TP_CNT": "16",
+    "UDGO_PM_CNT": "0",
     "UDGO_BG_CNT": "1"
   },
   {
+    "UDGO": "Выборов Кирилл Владимирович",
+    "UDGO_CUST_CNT": "0",
+    "UDGO_TP_CNT": "1",
+    "UDGO_PM_CNT": "0",
+    "UDGO_BG_CNT": "1"
+  },
+  {
+    "UDGO": "Кимячева Анна Евгеньевна",
+    "UDGO_CUST_CNT": "35 290",
+    "UDGO_TP_CNT": "64",
+    "UDGO_PM_CNT": "111",
+    "UDGO_BG_CNT": "6"
+  },
+  {
+    "UDGO": "Лощанин Алексей Владимирович",
+    "UDGO_CUST_CNT": "35 818",
+    "UDGO_TP_CNT": "42",
+    "UDGO_PM_CNT": "95",
+    "UDGO_BG_CNT": "5"
+  },
+  {
     "UDGO": "Пальчик Антон Алексеевич",
-    "UDGO_CUST_CNT": "54 381",
-    "UDGO_TP_CNT": "43",
-    "UDGO_PM_CNT": "30",
+    "UDGO_CUST_CNT": "32 132",
+    "UDGO_TP_CNT": "59",
+    "UDGO_PM_CNT": "98",
+    "UDGO_BG_CNT": "6"
+  },
+  {
+    "UDGO": "Савушкин Павел Евгеньевич",
+    "UDGO_CUST_CNT": "35 473",
+    "UDGO_TP_CNT": "67",
+    "UDGO_PM_CNT": "108",
     "UDGO_BG_CNT": "6"
   },
   {
     "UDGO": "Севостьянова Ольга Витальевна",
-    "UDGO_CUST_CNT": "52 071",
-    "UDGO_TP_CNT": "45",
-    "UDGO_PM_CNT": "30",
-    "UDGO_BG_CNT": "6"
-  },
-  {
-    "UDGO": "вакансия",
-    "UDGO_CUST_CNT": "50 414",
-    "UDGO_TP_CNT": "48",
-    "UDGO_PM_CNT": "30",
+    "UDGO_CUST_CNT": "38 592",
+    "UDGO_TP_CNT": "77",
+    "UDGO_PM_CNT": "115",
     "UDGO_BG_CNT": "6"
   },
   {
     "UDGO": "нет",
-    "UDGO_CUST_CNT": "3 048",
-    "UDGO_TP_CNT": "103",
-    "UDGO_PM_CNT": "30",
-    "UDGO_BG_CNT": "24"
+    "UDGO_CUST_CNT": "2 783",
+    "UDGO_TP_CNT": "236",
+    "UDGO_PM_CNT": "0",
+    "UDGO_BG_CNT": "25"
   }
 ]

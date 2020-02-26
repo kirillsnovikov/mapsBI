@@ -1,93 +1,80 @@
 [
   {
     "UDGO": "#",
-    "UDGO_CUST_CNT": "9 998",
+    "UDGO_CUST_CNT": "76 666",
     "UDGO_TP_CNT": "1",
-    "UDGO_PM_CNT": "0",
-    "UDGO_ROO_CNT": "1"
+    "UDGO_PM_CNT": "0"
   },
   {
     "UDGO": "-",
-    "UDGO_CUST_CNT": "73 573",
-    "UDGO_TP_CNT": "2346",
-    "UDGO_PM_CNT": "1",
-    "UDGO_ROO_CNT": "209"
+    "UDGO_CUST_CNT": "4 940",
+    "UDGO_TP_CNT": "2325",
+    "UDGO_PM_CNT": "3"
   },
   {
     "UDGO": "Выборов Кирилл Владимирович",
-    "UDGO_CUST_CNT": "41 277",
-    "UDGO_TP_CNT": "154",
-    "UDGO_PM_CNT": "139",
-    "UDGO_ROO_CNT": "18"
+    "UDGO_CUST_CNT": "40 827",
+    "UDGO_TP_CNT": "159",
+    "UDGO_PM_CNT": "136"
   },
   {
     "UDGO": "Горбунова Евгения Олеговна",
-    "UDGO_CUST_CNT": "54 236",
-    "UDGO_TP_CNT": "203",
-    "UDGO_PM_CNT": "208",
-    "UDGO_ROO_CNT": "16"
+    "UDGO_CUST_CNT": "53 598",
+    "UDGO_TP_CNT": "201",
+    "UDGO_PM_CNT": "196"
   },
   {
     "UDGO": "Кимячева Анна Евгеньевна",
-    "UDGO_CUST_CNT": "35 724",
-    "UDGO_TP_CNT": "61",
-    "UDGO_PM_CNT": "110",
-    "UDGO_ROO_CNT": "6"
+    "UDGO_CUST_CNT": "35 290",
+    "UDGO_TP_CNT": "64",
+    "UDGO_PM_CNT": "111"
   },
   {
     "UDGO": "Лощанин Алексей Владимирович",
-    "UDGO_CUST_CNT": "36 306",
+    "UDGO_CUST_CNT": "35 818",
     "UDGO_TP_CNT": "42",
-    "UDGO_PM_CNT": "94",
-    "UDGO_ROO_CNT": "5"
+    "UDGO_PM_CNT": "95"
   },
   {
     "UDGO": "Надеждина Анастасия Андреевна",
-    "UDGO_CUST_CNT": "56 050",
-    "UDGO_TP_CNT": "199",
-    "UDGO_PM_CNT": "206",
-    "UDGO_ROO_CNT": "17"
+    "UDGO_CUST_CNT": "54 580",
+    "UDGO_TP_CNT": "197",
+    "UDGO_PM_CNT": "203"
   },
   {
     "UDGO": "Никитина Юлия Александровна",
-    "UDGO_CUST_CNT": "70 948",
-    "UDGO_TP_CNT": "211",
-    "UDGO_PM_CNT": "217",
-    "UDGO_ROO_CNT": "19"
+    "UDGO_CUST_CNT": "69 799",
+    "UDGO_TP_CNT": "218",
+    "UDGO_PM_CNT": "210"
   },
   {
     "UDGO": "Пальчик Антон Алексеевич",
-    "UDGO_CUST_CNT": "32 458",
-    "UDGO_TP_CNT": "60",
-    "UDGO_PM_CNT": "101",
-    "UDGO_ROO_CNT": "7"
+    "UDGO_CUST_CNT": "32 132",
+    "UDGO_TP_CNT": "59",
+    "UDGO_PM_CNT": "98"
   },
   {
     "UDGO": "Раздобарина Светлана Владимировна",
-    "UDGO_CUST_CNT": "68 375",
+    "UDGO_CUST_CNT": "67 265",
     "UDGO_TP_CNT": "114",
-    "UDGO_PM_CNT": "205",
-    "UDGO_ROO_CNT": "23"
+    "UDGO_PM_CNT": "196"
   },
   {
     "UDGO": "Савушкин Павел Евгеньевич",
-    "UDGO_CUST_CNT": "35 778",
+    "UDGO_CUST_CNT": "35 473",
     "UDGO_TP_CNT": "67",
-    "UDGO_PM_CNT": "111",
-    "UDGO_ROO_CNT": "6"
+    "UDGO_PM_CNT": "108"
   },
   {
     "UDGO": "Севостьянова Ольга Витальевна",
-    "UDGO_CUST_CNT": "38 033",
+    "UDGO_CUST_CNT": "38 592",
     "UDGO_TP_CNT": "77",
-    "UDGO_PM_CNT": "116",
-    "UDGO_ROO_CNT": "6"
+    "UDGO_PM_CNT": "115"
   },
   {
     "UDGO": "нет",
-    "UDGO_CUST_CNT": "0",
-    "UDGO_TP_CNT": "6",
-    "UDGO_PM_CNT": "&nbsp;",
-    "UDGO_ROO_CNT": "6"
+    "UDGO_CUST_CNT": "2 783",
+    "UDGO_TP_CNT": "236",
+    "UDGO_PM_CNT": "0"
   }
 ]

@@ -1,1222 +1,1532 @@
 [
   {
+    "TP": "ДО «Авиамоторный» ",
+    "TP_CUST_CNT": "2 105",
+    "TP_PM_CNT": "5"
+  },
+  {
+    "TP": "ДО «Автозаводский» ",
+    "TP_CUST_CNT": "26",
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "ДО «Академический» ",
+    "TP_CUST_CNT": "35",
+    "TP_PM_CNT": "0"
+  },
+  {
     "TP": "ДО «Алексеевский» ",
-    "TP_CUST_CNT": "9 819",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "4 047",
+    "TP_PM_CNT": "10"
   },
   {
     "TP": "ДО «Алтуфьево» ",
-    "TP_CUST_CNT": "679",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "748",
+    "TP_PM_CNT": "3"
+  },
+  {
+    "TP": "ДО «Алтуфьевский» ",
+    "TP_CUST_CNT": "16",
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "ДО «Ангара» ",
+    "TP_CUST_CNT": "0",
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "ДО «Арбат, 51» ",
+    "TP_CUST_CNT": "50",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Арбатский» ",
-    "TP_CUST_CNT": "729",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "755",
+    "TP_PM_CNT": "3"
+  },
+  {
+    "TP": "ДО «Арена Плаза» ",
+    "TP_CUST_CNT": "102",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Афимолл» ",
-    "TP_CUST_CNT": "24",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "57",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Аэропорт Внуково» ",
-    "TP_CUST_CNT": "12",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "19",
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "ДО «Аэропорт» ",
+    "TP_CUST_CNT": "0",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Б. Черкасский, 10/11» ",
-    "TP_CUST_CNT": "248",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "259",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Бабушкинский» ",
-    "TP_CUST_CNT": "256",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "262",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Багратионовский» ",
-    "TP_CUST_CNT": "1 334",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "784",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Балашихинский» ",
-    "TP_CUST_CNT": "51",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "27",
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "ДО «Басманный» ",
+    "TP_CUST_CNT": "1 260",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Башня Федерация» ",
-    "TP_CUST_CNT": "2",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1",
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "ДО «Беговой» ",
+    "TP_CUST_CNT": "24",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Белорусский» ",
-    "TP_CUST_CNT": "898",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "973",
+    "TP_PM_CNT": "3"
+  },
+  {
+    "TP": "ДО «Беляево» ",
+    "TP_CUST_CNT": "605",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Бибирево» ",
-    "TP_CUST_CNT": "1 456",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "778",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Большая Ордынка» ",
-    "TP_CUST_CNT": "609",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "602",
+    "TP_PM_CNT": "2"
+  },
+  {
+    "TP": "ДО «Ботанический сад» ",
+    "TP_CUST_CNT": "2",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Бродников» ",
-    "TP_CUST_CNT": "35",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "6",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Бульвар Рокоссовского» ",
-    "TP_CUST_CNT": "502",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "546",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Бутовский» ",
-    "TP_CUST_CNT": "576",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "619",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Бутырский» ",
-    "TP_CUST_CNT": "1 017",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 085",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «ВДНХ» ",
-    "TP_CUST_CNT": "546",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "554",
+    "TP_PM_CNT": "2"
+  },
+  {
+    "TP": "ДО «Варшавский» ",
+    "TP_CUST_CNT": "198",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Вернадский» ",
-    "TP_CUST_CNT": "2 015",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "2 035",
+    "TP_PM_CNT": "5"
+  },
+  {
+    "TP": "ДО «Верхние Лихоборы» ",
+    "TP_CUST_CNT": "907",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Вешняки» ",
-    "TP_CUST_CNT": "825",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "905",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Видновский» ",
-    "TP_CUST_CNT": "1 788",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "463",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Видное» ",
-    "TP_CUST_CNT": "135",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "39",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Владыкино» ",
-    "TP_CUST_CNT": "12",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "8",
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "ДО «Водный стадион» ",
+    "TP_CUST_CNT": "16",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Воздвиженка» ",
-    "TP_CUST_CNT": "1 664",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 607",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Войковский» ",
-    "TP_CUST_CNT": "46",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "31",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Волгоградский проспект» ",
-    "TP_CUST_CNT": "1 738",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "992",
+    "TP_PM_CNT": "3"
+  },
+  {
+    "TP": "ДО «Воронцовский» ",
+    "TP_CUST_CNT": "1",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Воскресенский» ",
-    "TP_CUST_CNT": "24",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "14",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «ГУМ» ",
-    "TP_CUST_CNT": "995",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 019",
+    "TP_PM_CNT": "3"
+  },
+  {
+    "TP": "ДО «Гагаринский» ",
+    "TP_CUST_CNT": "342",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Георгиевский» ",
-    "TP_CUST_CNT": "472",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "429",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Гоголевский» ",
-    "TP_CUST_CNT": "11",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "4",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Даниловский» ",
-    "TP_CUST_CNT": "764",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "445",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Дедовский» ",
-    "TP_CUST_CNT": "999",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "351",
+    "TP_PM_CNT": "2"
+  },
+  {
+    "TP": "ДО «Дмитров» ",
+    "TP_CUST_CNT": "620",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Дмитровский» ",
     "TP_CUST_CNT": "5",
-    "TP_PM_CNT": "30"
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Днепропетровский» ",
-    "TP_CUST_CNT": "20",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "14",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Долгопрудный» ",
-    "TP_CUST_CNT": "13",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "14",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Долгоруковский» ",
-    "TP_CUST_CNT": "22",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "31",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Дом правительства Московской области» ",
-    "TP_CUST_CNT": "532",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "333",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Домодедовский» ",
-    "TP_CUST_CNT": "242",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "217",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Дубна» ",
-    "TP_CUST_CNT": "332",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "366",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Дубненский» ",
-    "TP_CUST_CNT": "10",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "12",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Егорьевский» ",
     "TP_CUST_CNT": "40",
-    "TP_PM_CNT": "30"
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Железнодорожный» ",
-    "TP_CUST_CNT": "11",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "15",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Жуковка» ",
-    "TP_CUST_CNT": "2 594",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 347",
+    "TP_PM_CNT": "5"
   },
   {
     "TP": "ДО «Жуковский Центральный» ",
-    "TP_CUST_CNT": "2 724",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 021",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Жуковский» ",
-    "TP_CUST_CNT": "24",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "14",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Жулебино» ",
-    "TP_CUST_CNT": "2 362",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 226",
+    "TP_PM_CNT": "4"
   },
   {
     "TP": "ДО «ЗИО Подольск» ",
-    "TP_CUST_CNT": "4",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "0",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Западный» ",
-    "TP_CUST_CNT": "33",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "38",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Зеленоградский» ",
-    "TP_CUST_CNT": "944",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "576",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Земляной вал» ",
-    "TP_CUST_CNT": "1 889",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "2 038",
+    "TP_PM_CNT": "5"
   },
   {
     "TP": "ДО «Ивантеевский» ",
-    "TP_CUST_CNT": "9",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "19",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Измайлово-Гольяново» ",
-    "TP_CUST_CNT": "687",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "731",
+    "TP_PM_CNT": "3"
+  },
+  {
+    "TP": "ДО «Измайловский бульвар» ",
+    "TP_CUST_CNT": "1 864",
+    "TP_PM_CNT": "4"
+  },
+  {
+    "TP": "ДО «Каланчевский» ",
+    "TP_CUST_CNT": "802",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Кантемировский» ",
-    "TP_CUST_CNT": "714",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "806",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Каширский» ",
-    "TP_CUST_CNT": "33",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "74",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Кедровый» ",
-    "TP_CUST_CNT": "640",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "762",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Китай-город» ",
-    "TP_CUST_CNT": "21",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "25",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Клинский» ",
-    "TP_CUST_CNT": "50",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "26",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Коломенский» ",
-    "TP_CUST_CNT": "1 096",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "663",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Комсити» ",
-    "TP_CUST_CNT": "1",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "4",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Королевский» ",
-    "TP_CUST_CNT": "4",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "5",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Красногорский» ",
-    "TP_CUST_CNT": "46",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "32",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Краснопресненский» ",
-    "TP_CUST_CNT": "1 131",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 148",
+    "TP_PM_CNT": "4"
+  },
+  {
+    "TP": "ДО «Краснопрудный» ",
+    "TP_CUST_CNT": "338",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Красносельский» ",
-    "TP_CUST_CNT": "28",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "42",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Красные ворота» ",
-    "TP_CUST_CNT": "14",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "23",
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "ДО «Крестовский» ",
+    "TP_CUST_CNT": "0",
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "ДО «Крылатское» ",
+    "TP_CUST_CNT": "1 001",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Кузнецкий мост» ",
-    "TP_CUST_CNT": "724",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "983",
+    "TP_PM_CNT": "4"
   },
   {
     "TP": "ДО «Кузьминки» ",
-    "TP_CUST_CNT": "37",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "30",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Ленинградский проспект» ",
-    "TP_CUST_CNT": "1 956",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 911",
+    "TP_PM_CNT": "5"
   },
   {
     "TP": "ДО «Ленинградский» ",
-    "TP_CUST_CNT": "463",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "535",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Ленинградское шоссе» ",
-    "TP_CUST_CNT": "1 996",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 097",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Ленинский просп., 45» ",
-    "TP_CUST_CNT": "0",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "2",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Ленинский проспект» ",
-    "TP_CUST_CNT": "792",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "900",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Лермонтовский проспект» ",
-    "TP_CUST_CNT": "602",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "653",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Лермонтовский» ",
-    "TP_CUST_CNT": "9",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "5",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Лобня» ",
-    "TP_CUST_CNT": "378",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "423",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Ломоносовский» ",
-    "TP_CUST_CNT": "938",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "973",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Лубянский» ",
-    "TP_CUST_CNT": "1 134",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 126",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Люберецкий» ",
-    "TP_CUST_CNT": "33",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "45",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Люблино центр» ",
-    "TP_CUST_CNT": "1 314",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "716",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Люблино» ",
-    "TP_CUST_CNT": "4",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "2",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Марьино» ",
-    "TP_CUST_CNT": "1 656",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 786",
+    "TP_PM_CNT": "5"
   },
   {
     "TP": "ДО «Марьинский» ",
-    "TP_CUST_CNT": "148",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "212",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Маяковский» ",
-    "TP_CUST_CNT": "1 576",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 759",
+    "TP_PM_CNT": "5"
   },
   {
     "TP": "ДО «Мега Химки» ",
-    "TP_CUST_CNT": "561",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "638",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Медведково» ",
-    "TP_CUST_CNT": "988",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "547",
+    "TP_PM_CNT": "2"
+  },
+  {
+    "TP": "ДО «Митино» ",
+    "TP_CUST_CNT": "748",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Митинский» ",
-    "TP_CUST_CNT": "236",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "375",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Мичуринский» ",
-    "TP_CUST_CNT": "84",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "127",
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "ДО «Можайский» ",
+    "TP_CUST_CNT": "34",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Можайское шоссе» ",
-    "TP_CUST_CNT": "2 070",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "736",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Молодежный» ",
-    "TP_CUST_CNT": "67",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "124",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Мосфильмовский» ",
-    "TP_CUST_CNT": "1",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "11",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Мытищинский» ",
-    "TP_CUST_CNT": "266",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "184",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «На Автозаводской» ",
-    "TP_CUST_CNT": "1 627",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 729",
+    "TP_PM_CNT": "5"
+  },
+  {
+    "TP": "ДО «На Алексеевской» ",
+    "TP_CUST_CNT": "31",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «На Андропова» ",
-    "TP_CUST_CNT": "11",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "41",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «На Венёвской» ",
-    "TP_CUST_CNT": "646",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "749",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «На Енисейской» ",
-    "TP_CUST_CNT": "1 516",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "812",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «На Каменке» ",
-    "TP_CUST_CNT": "681",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "756",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «На Каширском» ",
-    "TP_CUST_CNT": "1 468",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "821",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «На Краснознаменской» ",
-    "TP_CUST_CNT": "2 538",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "932",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «На Красносельской» ",
-    "TP_CUST_CNT": "889",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 000",
+    "TP_PM_CNT": "3"
+  },
+  {
+    "TP": "ДО «На Крупской» ",
+    "TP_CUST_CNT": "539",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «На Лавочкина» ",
-    "TP_CUST_CNT": "63",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "21",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «На Маршала Бирюзова» ",
-    "TP_CUST_CNT": "1 574",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 561",
+    "TP_PM_CNT": "5"
   },
   {
     "TP": "ДО «На Мытной» ",
-    "TP_CUST_CNT": "1 524",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 556",
+    "TP_PM_CNT": "5"
   },
   {
     "TP": "ДО «На Носовихинском» ",
-    "TP_CUST_CNT": "546",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "604",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «На Октябрьском» ",
-    "TP_CUST_CNT": "21",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "34",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «На Пионерской» ",
-    "TP_CUST_CNT": "618",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "682",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «На Покрышкина» ",
-    "TP_CUST_CNT": "1 676",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "981",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «На Рижской» ",
-    "TP_CUST_CNT": "904",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "962",
+    "TP_PM_CNT": "3"
+  },
+  {
+    "TP": "ДО «На Соборной» ",
+    "TP_CUST_CNT": "772",
+    "TP_PM_CNT": "4"
   },
   {
     "TP": "ДО «На Советской» в г. Балашихе ",
-    "TP_CUST_CNT": "526",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "564",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «На Советской» в г. Раменское ",
     "TP_CUST_CNT": "8",
-    "TP_PM_CNT": "30"
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "ДО «На Советской» в г. Чехове ",
+    "TP_CUST_CNT": "309",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «На Янгеля» ",
-    "TP_CUST_CNT": "950",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "581",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «На набережной» ",
-    "TP_CUST_CNT": "641",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "626",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Нагатинский» ",
-    "TP_CUST_CNT": "4",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "10",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Нагорно-Южный» ",
-    "TP_CUST_CNT": "655",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "671",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Наро-Фоминск» ",
-    "TP_CUST_CNT": "754",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "462",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Нахимовский проспект» ",
-    "TP_CUST_CNT": "844",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "879",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Невский» ",
-    "TP_CUST_CNT": "3 240",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 657",
+    "TP_PM_CNT": "5"
+  },
+  {
+    "TP": "ДО «Неглинный» ",
+    "TP_CUST_CNT": "1 967",
+    "TP_PM_CNT": "5"
   },
   {
     "TP": "ДО «Никитский» ",
-    "TP_CUST_CNT": "1 344",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 634",
+    "TP_PM_CNT": "4"
   },
   {
     "TP": "ДО «Никольский» ",
-    "TP_CUST_CNT": "39",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "59",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Новоарбатский» ",
-    "TP_CUST_CNT": "115",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "149",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Новогиреево» ",
-    "TP_CUST_CNT": "1 896",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 035",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Новодмитровский» ",
-    "TP_CUST_CNT": "692",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "714",
+    "TP_PM_CNT": "3"
+  },
+  {
+    "TP": "ДО «Новокосино» ",
+    "TP_CUST_CNT": "3",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Новокуркино» ",
-    "TP_CUST_CNT": "50",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "59",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Новомытищинский» ",
-    "TP_CUST_CNT": "1 048",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 083",
+    "TP_PM_CNT": "5"
   },
   {
     "TP": "ДО «Новоясеневский» ",
-    "TP_CUST_CNT": "1 123",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 246",
+    "TP_PM_CNT": "3"
+  },
+  {
+    "TP": "ДО «Новый Арбат» ",
+    "TP_CUST_CNT": "1 823",
+    "TP_PM_CNT": "6"
   },
   {
     "TP": "ДО «Ногинский» ",
     "TP_CUST_CNT": "2",
-    "TP_PM_CNT": "30"
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "ДО «Обручевский» ",
+    "TP_CUST_CNT": "1 426",
+    "TP_PM_CNT": "4"
   },
   {
     "TP": "ДО «Одинцово» ",
-    "TP_CUST_CNT": "2 145",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "782",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Одинцовский» ",
-    "TP_CUST_CNT": "228",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "62",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Октябрьский проспект» ",
-    "TP_CUST_CNT": "714",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "772",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Октябрьское поле» ",
-    "TP_CUST_CNT": "235",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "288",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Олимпийский» ",
-    "TP_CUST_CNT": "1 570",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 743",
+    "TP_PM_CNT": "5"
   },
   {
     "TP": "ДО «Орехово - Зуевский» ",
-    "TP_CUST_CNT": "44",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "35",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Орехово-Борисовский» ",
-    "TP_CUST_CNT": "714",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "830",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Оружейный» ",
-    "TP_CUST_CNT": "1 318",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 502",
+    "TP_PM_CNT": "2"
+  },
+  {
+    "TP": "ДО «Останкино» ",
+    "TP_CUST_CNT": "0",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Остоженка» ",
-    "TP_CUST_CNT": "2 265",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "2 292",
+    "TP_PM_CNT": "9"
   },
   {
     "TP": "ДО «Отрадное» ",
-    "TP_CUST_CNT": "1 146",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "893",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Охотный ряд-Прайм» ",
-    "TP_CUST_CNT": "10",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "3",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Охотный ряд» ",
-    "TP_CUST_CNT": "22",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "26",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Очаковский» ",
-    "TP_CUST_CNT": "6",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "5",
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "ДО «Павлово-Посадский» ",
+    "TP_CUST_CNT": "296",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Парус» ",
-    "TP_CUST_CNT": "15",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "23",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Первомайский» ",
-    "TP_CUST_CNT": "3",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "127",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Перловский» ",
-    "TP_CUST_CNT": "3",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "5",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Перовский» ",
-    "TP_CUST_CNT": "36",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "52",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Петровский» ",
+    "TP_CUST_CNT": "4",
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "ДО «Петровско-Разумовский» ",
     "TP_CUST_CNT": "0",
-    "TP_PM_CNT": "30"
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Планерный» ",
-    "TP_CUST_CNT": "33",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "43",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Площадь Гагарина» ",
-    "TP_CUST_CNT": "742",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "787",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Подмосковный» ",
-    "TP_CUST_CNT": "1 266",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "724",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Подольский» ",
-    "TP_CUST_CNT": "435",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "181",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Покровка» ",
-    "TP_CUST_CNT": "2 898",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "3 376",
+    "TP_PM_CNT": "8"
   },
   {
     "TP": "ДО «Полежаевский» ",
-    "TP_CUST_CNT": "8",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "3",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Полянка» ",
-    "TP_CUST_CNT": "342",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "443",
+    "TP_PM_CNT": "2"
+  },
+  {
+    "TP": "ДО «Преображенский» ",
+    "TP_CUST_CNT": "516",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Проспект Андропова» ",
-    "TP_CUST_CNT": "352",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "365",
+    "TP_PM_CNT": "2"
+  },
+  {
+    "TP": "ДО «Проспект Королева» ",
+    "TP_CUST_CNT": "1 392",
+    "TP_PM_CNT": "4"
+  },
+  {
+    "TP": "ДО «Проспект Космонавтов» ",
+    "TP_CUST_CNT": "590",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Проспект Маршала Жукова» ",
-    "TP_CUST_CNT": "840",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "896",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Проспект Мира» ",
-    "TP_CUST_CNT": "351",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "449",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Проспект Пацаева» ",
-    "TP_CUST_CNT": "1 272",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "692",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Протвинский» ",
-    "TP_CUST_CNT": "948",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "255",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Профсоюзный» ",
-    "TP_CUST_CNT": "9",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "18",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Пушкинский» ",
-    "TP_CUST_CNT": "4",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "7",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Пятницкий» ",
-    "TP_CUST_CNT": "24",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "40",
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "ДО «РЖД» ",
+    "TP_CUST_CNT": "1 577",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Раменский» ",
-    "TP_CUST_CNT": "212",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "151",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Реутовский» ",
-    "TP_CUST_CNT": "674",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "396",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Римский» ",
-    "TP_CUST_CNT": "815",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "847",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Рождественка» ",
     "TP_CUST_CNT": "1",
-    "TP_PM_CNT": "30"
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Россошанский» ",
-    "TP_CUST_CNT": "7",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "8",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Ростелеком» ",
-    "TP_CUST_CNT": "113",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "154",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Рублевский» ",
-    "TP_CUST_CNT": "1 509",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 634",
+    "TP_PM_CNT": "3"
+  },
+  {
+    "TP": "ДО «Румянцево» ",
+    "TP_CUST_CNT": "988",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Русаковский» ",
-    "TP_CUST_CNT": "1 399",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 492",
+    "TP_PM_CNT": "5"
   },
   {
     "TP": "ДО «Рязанский проспект» ",
-    "TP_CUST_CNT": "400",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "251",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Рязанский» ",
-    "TP_CUST_CNT": "2 058",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 053",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Савеловский» ",
-    "TP_CUST_CNT": "1",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "68",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Садово-Кудринский» ",
-    "TP_CUST_CNT": "1 094",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 142",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Садово-Сухаревский» ",
-    "TP_CUST_CNT": "303",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "335",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Садовое кольцо» ",
-    "TP_CUST_CNT": "11",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "12",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Садовый-Триумфальный» ",
-    "TP_CUST_CNT": "301",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "383",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Свиблово» ",
-    "TP_CUST_CNT": "591",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "648",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Северо-Западный» ",
-    "TP_CUST_CNT": "146",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "222",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Семеновский» ",
-    "TP_CUST_CNT": "3 080",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "3 286",
+    "TP_PM_CNT": "7"
   },
   {
     "TP": "ДО «Сергиев Посад» ",
-    "TP_CUST_CNT": "1 304",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "712",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Сергиево-Посадский» ",
-    "TP_CUST_CNT": "5",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "10",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Серпуховский» ",
-    "TP_CUST_CNT": "64",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "42",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Смирновский» ",
-    "TP_CUST_CNT": "7",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "12",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Совет Федерации» ",
-    "TP_CUST_CNT": "5",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "6",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Советский» ",
-    "TP_CUST_CNT": "152",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "177",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Сокол» ",
-    "TP_CUST_CNT": "2 806",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "2 960",
+    "TP_PM_CNT": "8"
   },
   {
     "TP": "ДО «Сокольнический» ",
-    "TP_CUST_CNT": "266",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "328",
+    "TP_PM_CNT": "2"
+  },
+  {
+    "TP": "ДО «Солнечногорский» ",
+    "TP_CUST_CNT": "650",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Солнцево» ",
-    "TP_CUST_CNT": "22",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "19",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Спартаковский» ",
-    "TP_CUST_CNT": "11",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "0",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Спектр» ",
     "TP_CUST_CNT": "3",
-    "TP_PM_CNT": "30"
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Строгино» ",
-    "TP_CUST_CNT": "62",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "69",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Строгинский» ",
-    "TP_CUST_CNT": "703",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "817",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Ступинский» ",
-    "TP_CUST_CNT": "48",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "37",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Сухаревский» ",
-    "TP_CUST_CNT": "685",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "674",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Сходненский» ",
-    "TP_CUST_CNT": "67",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "125",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Таганский» ",
-    "TP_CUST_CNT": "21",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "27",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Тверская, 8» ",
-    "TP_CUST_CNT": "411",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "523",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Тверская,13» ",
-    "TP_CUST_CNT": "46",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "66",
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "ДО «Тверской» ",
+    "TP_CUST_CNT": "975",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Твин Плаза» ",
-    "TP_CUST_CNT": "964",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 023",
+    "TP_PM_CNT": "3"
+  },
+  {
+    "TP": "ДО «Текстильщики» ",
+    "TP_CUST_CNT": "10",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Теплый стан» ",
-    "TP_CUST_CNT": "13",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "95",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Тимирязевский» ",
-    "TP_CUST_CNT": "1 644",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "925",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Тихвинский» ",
-    "TP_CUST_CNT": "137",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "210",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Троицк» ",
-    "TP_CUST_CNT": "3 300",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 150",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Трубная площадь» ",
-    "TP_CUST_CNT": "8",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "24",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Тульский» ",
-    "TP_CUST_CNT": "845",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "881",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Тушинский» ",
-    "TP_CUST_CNT": "5",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "7",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Улица 1905 года» ",
-    "TP_CUST_CNT": "1 184",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 351",
+    "TP_PM_CNT": "4"
+  },
+  {
+    "TP": "ДО «Университет» ",
+    "TP_CUST_CNT": "2 196",
+    "TP_PM_CNT": "7"
+  },
+  {
+    "TP": "ДО «Университетский» ",
+    "TP_CUST_CNT": "13",
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "ДО «Фили» ",
+    "TP_CUST_CNT": "0",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Фрунзенский» ",
-    "TP_CUST_CNT": "831",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "912",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Хамовники» ",
-    "TP_CUST_CNT": "1 026",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 214",
+    "TP_PM_CNT": "5"
+  },
+  {
+    "TP": "ДО «Хамовнический» ",
+    "TP_CUST_CNT": "357",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Химки» ",
-    "TP_CUST_CNT": "712",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "785",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Химкинский бульвар» ",
-    "TP_CUST_CNT": "995",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 078",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Ходынский» ",
-    "TP_CUST_CNT": "1 445",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 583",
+    "TP_PM_CNT": "5"
+  },
+  {
+    "TP": "ДО «Хорошевский» ",
+    "TP_CUST_CNT": "108",
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "ДО «ЦИК «Мытищи» ",
+    "TP_CUST_CNT": "804",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «ЦИК «Химки-Правобережный» ",
-    "TP_CUST_CNT": "1 624",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "888",
+    "TP_PM_CNT": "2"
+  },
+  {
+    "TP": "ДО «ЦМТ» ",
+    "TP_CUST_CNT": "16",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Цветной бульвар» ",
-    "TP_CUST_CNT": "19",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "30",
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "ДО «Центр Железнодорожный» ",
+    "TP_CUST_CNT": "807",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Центр автокредитования» ",
-    "TP_CUST_CNT": "6",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "8",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Центральный бульвар» ",
-    "TP_CUST_CNT": "164",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "100",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Центральный» ",
-    "TP_CUST_CNT": "48",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "22",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Центральный» в г. Москве ",
-    "TP_CUST_CNT": "36",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "44",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Центральный» в г. Подольске ",
-    "TP_CUST_CNT": "4 921",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "789",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Черемушки» ",
-    "TP_CUST_CNT": "1 197",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 327",
+    "TP_PM_CNT": "3"
+  },
+  {
+    "TP": "ДО «Черкизовский» ",
+    "TP_CUST_CNT": "23",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Чертаново» ",
-    "TP_CUST_CNT": "1 237",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1 310",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Чертановский» ",
-    "TP_CUST_CNT": "12",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "20",
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "ДО «Чеховский» ",
+    "TP_CUST_CNT": "45",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Шереметьевский» ",
     "TP_CUST_CNT": "9",
-    "TP_PM_CNT": "30"
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Шмитовский» ",
-    "TP_CUST_CNT": "809",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "854",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО «Шоссе Энтузиастов» ",
-    "TP_CUST_CNT": "165",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "196",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Шуваловский» ",
-    "TP_CUST_CNT": "708",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "869",
+    "TP_PM_CNT": "2"
+  },
+  {
+    "TP": "ДО «Щелковский» ",
+    "TP_CUST_CNT": "16",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Щелковское шоссе, 69» ",
-    "TP_CUST_CNT": "7",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "8",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Электрозаводский» ",
-    "TP_CUST_CNT": "4",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "3",
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "ДО «Электростальский» ",
+    "TP_CUST_CNT": "26",
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "ДО «Юбилейный» ",
+    "TP_CUST_CNT": "405",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО «Юго-Западный» ",
-    "TP_CUST_CNT": "13",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "31",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Южнобутовский» ",
-    "TP_CUST_CNT": "8",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "16",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Южнонагатинский» ",
-    "TP_CUST_CNT": "591",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "644",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Южный» ",
-    "TP_CUST_CNT": "596",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "428",
+    "TP_PM_CNT": "2"
   },
   {
     "TP": "ДО «Ярославский» ",
-    "TP_CUST_CNT": "116",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "131",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «Ясенево» ",
-    "TP_CUST_CNT": "0",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "3",
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "ДО «ст. метро Бульвар Дмитрия Донского» ",
+    "TP_CUST_CNT": "1",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «ст. метро Павелецкая» ",
     "TP_CUST_CNT": "4",
-    "TP_PM_CNT": "30"
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО «ст. метро Печатники» ",
-    "TP_CUST_CNT": "0",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "1",
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "ДО «ст. метро Улица 1905 года» ",
+    "TP_CUST_CNT": "1",
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО Кредитный центр «Зубовский бульвар» ",
-    "TP_CUST_CNT": "2 623",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "2 624",
+    "TP_PM_CNT": "8"
   },
   {
     "TP": "ДО Кредитный центр «Марксистский» ",
-    "TP_CUST_CNT": "2 260",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "2 437",
+    "TP_PM_CNT": "5"
   },
   {
     "TP": "ДО ЦИК «Каретный ряд» ",
     "TP_CUST_CNT": "0",
-    "TP_PM_CNT": "30"
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "ДО ЦИК «Курский» ",
-    "TP_CUST_CNT": "148",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "190",
+    "TP_PM_CNT": "1"
   },
   {
     "TP": "ДО ЦИК «Москва-Сити» ",
-    "TP_CUST_CNT": "3 866",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "5 217",
+    "TP_PM_CNT": "8"
   },
   {
-    "TP": "ДО ЦИК «Мытищи» ",
-    "TP_CUST_CNT": "708",
-    "TP_PM_CNT": "30"
+    "TP": "ДО ЦИК «На Мясницкой» ",
+    "TP_CUST_CNT": "4 293",
+    "TP_PM_CNT": "9"
   },
   {
     "TP": "ДО ЦИК «Новослободский» ",
-    "TP_CUST_CNT": "1 907",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "2 041",
+    "TP_PM_CNT": "6"
   },
   {
     "TP": "ДО ЦИК «Павелецкий» ",
-    "TP_CUST_CNT": "2 123",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "2 297",
+    "TP_PM_CNT": "5"
   },
   {
     "TP": "ДО ЦИК «Площадь Победы» ",
-    "TP_CUST_CNT": "2 051",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "2 236",
+    "TP_PM_CNT": "5"
   },
   {
     "TP": "ДО ЦИК «Пушечный» ",
-    "TP_CUST_CNT": "5",
-    "TP_PM_CNT": "30"
+    "TP_CUST_CNT": "2",
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "ДО ЦИК «Пушкино» ",
+    "TP_CUST_CNT": "935",
+    "TP_PM_CNT": "3"
   },
   {
     "TP": "ДО ЦИК «Смоленский» ",
     "TP_CUST_CNT": "2",
-    "TP_PM_CNT": "30"
+    "TP_PM_CNT": "0"
   },
   {
     "TP": "Филиал «Центральный» ",
     "TP_CUST_CNT": "0",
-    "TP_PM_CNT": "30"
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "Филиал № 7701 ",
+    "TP_CUST_CNT": "0",
+    "TP_PM_CNT": "0"
+  },
+  {
+    "TP": "Филиал № 7777 ",
+    "TP_CUST_CNT": "3",
+    "TP_PM_CNT": "0"
   }
 ]

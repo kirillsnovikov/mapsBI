@@ -1,5 +1,7 @@
 'use strict';
 
+import { calculateData } from './helpers/mos_regobl';
+
 export function MapLoader_regobl() {
   window.requestAnimationFrame = (function() {
     return (
@@ -193,7 +195,7 @@ export function MapLoader_regobl() {
 
   this.init = function(mapUrl, data, width, height) {
     this.mapUrl = mapUrl;
-    this.data = data;
+    this.data = calculateData(data);
     this.width = width || document.body.clientWidth;
     this.height = height || (document.body.clientWidth * 9) / 20;
     return this;
@@ -363,12 +365,12 @@ export function MapLoader_regobl() {
             width: widthColumn
           }),
           new self.tableColumn({
-            name: 'BG_BY_TP_FAKT',
+            name: 'BG_FAKT',
             display: window.title + ', тыс.руб, факт',
             align: 'right'
           }),
           new self.tableColumn({
-            name: 'BG_BY_TP_PLAN',
+            name: 'BG_PLAN',
             display: window.title + ', тыс.руб, план',
             align: 'right'
           }),
@@ -526,46 +528,6 @@ export function MapLoader_regobl() {
           ['TP', 'TP_PLAN', 'TP_FAKT', 'TP_PRC', 'TP_PROGNOZ', 'LAT', 'LON']
         )
       );
-    });
-    Object.values(mapCollection.data).forEach(item => {
-      var regions = Object.values(mapCollection.data).filter(k => {
-        return k.BG === item.BG && item.UDGO === k.UDGO;
-      });
-      var regFakt = 0;
-      var regPlan = 0;
-      regions.forEach(item => {
-        regFakt += self.helper.toNumber(item.TP_FAKT);
-        regPlan += self.helper.toNumber(item.TP_PLAN);
-      });
-      item['BG_BY_TP_FAKT'] = regFakt.toLocaleString();
-      item['BG_BY_TP_PLAN'] = regPlan.toLocaleString();
-    });
-    let udgos = new Set(
-      Object.values(mapCollection.data).map(item => item.UDGO)
-    );
-    mapCollection.udgos = {};
-    udgos.forEach(udgo => {
-      let data = Object.values(mapCollection.data).filter(item => {
-        return item.UDGO === udgo;
-      });
-      let fakt = 0;
-      let plan = 0;
-      let percent = 0;
-      data.forEach(j => {
-        fakt += self.helper.toNumber(j.TP_FAKT);
-        plan += self.helper.toNumber(j.TP_PLAN);
-      });
-      if (fakt === 0 && plan === 0) {
-        percent = 0;
-      } else if (fakt !== 0 && plan === 0) {
-        percent = 100;
-      } else {
-        percent = Math.round((fakt / plan) * 100);
-      }
-      mapCollection.udgos[udgo] = {};
-      mapCollection.udgos[udgo]['UDGO_FAKT'] = fakt;
-      mapCollection.udgos[udgo]['UDGO_PLAN'] = plan;
-      mapCollection.udgos[udgo]['UDGO_PRC'] = percent;
     });
 
     var map = topojson.feature(
@@ -757,13 +719,13 @@ export function MapLoader_regobl() {
             })
           );
         });
-        result.unshift(getTotalRoos());
+        result.unshift(getTotal(keys, curState));
       } else if (
         curState === self.zoomScale.BG ||
         curState === self.zoomScale.REG
       ) {
         var bgs = self.data.filter(function(item) {
-          return item[name] === entry[name];
+          return item[name] === entry[name] && item.UDGO === entry.UDGO;
         });
         self.bgsUnique = new Set(
           bgs.map(function(i) {
@@ -797,27 +759,6 @@ export function MapLoader_regobl() {
         });
         keys.forEach(function(key) {
           total[key] = entry[key];
-        });
-        return total;
-      }
-      function getTotalRoos() {
-        var total = {};
-        keys.forEach(key => {
-          if (key === 'FAKT') {
-            total[`UDGO_${key}`] = mapCollection.udgos[entry[name]][
-              `UDGO_${key}`
-            ].toLocaleString();
-          } else if (key === 'PLAN') {
-            total[`UDGO_${key}`] = mapCollection.udgos[entry[name]][
-              `UDGO_${key}`
-            ].toLocaleString();
-          } else if (key === 'PRC') {
-            total[`UDGO_${key}`] = mapCollection.udgos[entry[name]][
-              `UDGO_${key}`
-            ].toLocaleString();
-          } else {
-            total[`UDGO_${key}`] = entry[`UDGO_${key}`];
-          }
         });
         return total;
       }
@@ -958,7 +899,7 @@ export function MapLoader_regobl() {
       result.title['label'] = pieKeys.title;
       result.title['value'] = title;
       result['color'] = self.color(self.helper.toNumber(entry[color]));
-      result['percentage'] = entry[color];
+      result['percentage'] = self.helper.toNumber(entry[color]);
       var pieData = pieKeys[name].find(function(item) {
         if (name === 'BG') {
           return (
@@ -978,19 +919,12 @@ export function MapLoader_regobl() {
           if (name === 'UDGO' && Object.keys(data)[0] === 'БГ') {
             result.data.push({
               label: Object.keys(data)[0],
-              value: self.udgosUnique.size
+              value: entry.BG_CNT
             });
           } else if (name === 'BG' && Object.keys(data)[0] === 'Офисов') {
             result.data.push({
               label: Object.keys(data)[0],
               value: self.bgsUnique.size
-            });
-          } else if (Object.values(data)[0] === 'UDGO_FAKT') {
-            result.data.push({
-              label: Object.keys(data)[0],
-              value: mapCollection.udgos[entry[name]][
-                Object.values(data)[0]
-              ].toLocaleString()
             });
           } else {
             result.data.push({
@@ -1065,12 +999,13 @@ export function MapLoader_regobl() {
 
       svg.appendChild(progressBG);
       svg.appendChild(progressBar);
-      setTimeout(function() {
-        $(progressBar).css('stroke-dasharray', [
-          (circle.circumference / 100) * circle.percentage,
-          circle.circumference
-        ]);
-      }, 0);
+      setTimeout(() => {
+        progressBar.setAttribute(
+          'style',
+          `stroke-dasharray: ${(circle.circumference / 100) *
+            circle.percentage}, ${circle.circumference}`
+        );
+      }, 50);
       pieEl.append(svg);
 
       $('<div/>', {
@@ -1256,17 +1191,11 @@ export function MapLoader_regobl() {
         self.tooltip.text(
           e[name] +
             ' \nплан: ' +
-            (plan === 'UDGO_PLAN'
-              ? mapCollection.udgos[e[name]][plan].toLocaleString()
-              : e[plan]) +
+            e[plan] +
             '\nфакт: ' +
-            (fact === 'UDGO_FAKT'
-              ? mapCollection.udgos[e[name]][fact].toLocaleString()
-              : e[fact]) +
+            e[fact] +
             ' \n% выполнения: ' +
-            (prc === 'UDGO_PRC'
-              ? mapCollection.udgos[e[name]][prc].toLocaleString()
-              : e[prc]) +
+            e[prc] +
             '\n% выполнения, прогноз: ' +
             e[color]
         );
@@ -1295,17 +1224,11 @@ export function MapLoader_regobl() {
               .text(
                 entry[name] +
                   ' \nплан: ' +
-                  (plan === 'UDGO_PLAN'
-                    ? mapCollection.udgos[entry[name]][plan].toLocaleString()
-                    : entry[plan]) +
+                  entry[plan] +
                   '\nфакт: ' +
-                  (fact === 'UDGO_FAKT'
-                    ? mapCollection.udgos[entry[name]][fact].toLocaleString()
-                    : entry[fact]) +
+                  entry[fact] +
                   ' \n% выполнения: ' +
-                  (prc === 'UDGO_PRC'
-                    ? mapCollection.udgos[entry[name]][prc].toLocaleString()
-                    : entry[prc]) +
+                  entry[prc] +
                   '\n% выполнения, прогноз: ' +
                   entry[color]
               )
