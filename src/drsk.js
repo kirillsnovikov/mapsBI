@@ -1,6 +1,7 @@
 'use strict';
 
 import { calculateData } from './helpers/drsk';
+import DataHandler from './helpers/dataHandler';
 
 export function MapLoader() {
   window.requestAnimationFrame = (function() {
@@ -200,13 +201,11 @@ export function MapLoader() {
   };
 
   this.init = function(mapUrl, data, width, height) {
-    const config = {
-      levelOne: 'UDGO',
-      levelTwo: 'ROO',
-      levelThree: 'CITY'
-    };
     this.mapUrl = mapUrl;
     this.data = calculateData(data);
+    // this.data = new DataHandler(data).data;
+
+    console.log(this.data);
     this.width = width || document.body.clientWidth;
     this.height = height || (document.body.clientWidth * 9) / 20;
     return this;
@@ -304,6 +303,7 @@ export function MapLoader() {
       }
 
       function defineKeys(state, title, cState = null, cTitle = null) {
+        console.log(state);
         var data = window['RU_' + state];
         var cData = cState !== null ? window['RU_' + cState] : null;
         var pieKeys = {
@@ -380,12 +380,12 @@ export function MapLoader() {
             width: widthColumn
           }),
           new self.tableColumn({
-            name: 'ROO_FAKT',
+            name: 'UDGO_ROO_FAKT',
             display: window.title + ', тыс.руб, факт',
             align: 'right'
           }),
           new self.tableColumn({
-            name: 'ROO_PLAN',
+            name: 'UDGO_ROO_PLAN',
             display: window.title + ', тыс.руб, план',
             align: 'right'
           }),
@@ -415,12 +415,12 @@ export function MapLoader() {
             width: widthColumn
           }),
           new self.tableColumn({
-            name: 'CITY_FAKT',
+            name: 'CITY_TOTAL_FAKT',
             display: window.title + ', тыс.руб, факт',
             align: 'right'
           }),
           new self.tableColumn({
-            name: 'CITY_PLAN',
+            name: 'CITY_TOTAL_PLAN',
             display: window.title + ', тыс.руб, план',
             align: 'right'
           }),
@@ -699,7 +699,7 @@ export function MapLoader() {
         curState === self.zoomScale.REG
       ) {
         var cities = self.data.filter(function(item) {
-          return item[name] === entry[name] && item.UDGO === entry.UDGO;
+          return item[name] === entry[name];
         });
         new Set(
           cities.map(function(i) {
@@ -714,9 +714,10 @@ export function MapLoader() {
         });
         result.unshift(getTotal(keys, curState));
         if (self.zoomScale.citiesVisible()) {
-          result['cities'] = window.RU_TP.filter(function(item) {
+          let cityData = window.RU_TP.filter(function(item) {
             return item[name] === entry[name];
           });
+          result['cities'] = cityData;
           result['cities'].unshift(getTotal(keys, 'CITY'));
         }
       }
@@ -858,7 +859,7 @@ export function MapLoader() {
           } else if (Object.keys(data)[0] === 'РОО') {
             result.data.push({
               label: Object.keys(data)[0],
-              value: entry.ROO_CNT
+              value: entry.UDGO_ROO_CNT
             });
           } else {
             result.data.push({
