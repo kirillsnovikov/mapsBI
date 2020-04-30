@@ -4,35 +4,35 @@ import { calculateData } from './helpers/drsk';
 import DataHandler from './helpers/dataHandler';
 
 export function MapLoader() {
-  window.requestAnimationFrame = (function() {
+  window.requestAnimationFrame = (function () {
     return (
       window.requestAnimationFrame ||
       window.webkitRequestAnimationFrame ||
       window.mozRequestAnimationFrame ||
       window.oRequestAnimationFrame ||
       window.msRequestAnimationFrame ||
-      function(callback, element) {
+      function (callback, element) {
         return window.setTimeout(callback, 1000 / 60);
       }
     );
   })();
 
   function Helper() {
-    this.replaceAll = function(str, find, replace) {
+    this.replaceAll = function (str, find, replace) {
       return (
         (str && str.replace && str.replace(new RegExp(find, 'g'), replace)) ||
         str
       );
     };
 
-    this.assign = function(target, source, fields) {
-      fields.forEach(function(key) {
+    this.assign = function (target, source, fields) {
+      fields.forEach(function (key) {
         target[key] = source[key];
       });
       return target;
     };
 
-    this.toNumber = function(value) {
+    this.toNumber = function (value) {
       return (
         (value &&
           Number(this.replaceAll(value.replace(/\s/g, ''), ',', '.'))) ||
@@ -40,7 +40,7 @@ export function MapLoader() {
       );
     };
 
-    this.calcRadius = function(percent, multiplier) {
+    this.calcRadius = function (percent, multiplier) {
       if (percent < 1) return 6 * multiplier;
       else if (percent < 5) return 6.5 * multiplier;
       else if (percent < 10) return 7 * multiplier;
@@ -52,7 +52,7 @@ export function MapLoader() {
       return 14 * multiplier;
     };
 
-    this.createSVG = function(tag, attributes, styles) {
+    this.createSVG = function (tag, attributes, styles) {
       var styles = styles || {};
       var el = document.createElementNS('http://www.w3.org/2000/svg', tag);
       for (var attrName in attributes) {
@@ -64,16 +64,16 @@ export function MapLoader() {
       return el;
     };
 
-    this.columnParameter = function(name, def = null) {
+    this.columnParameter = function (name, def = null) {
       this.name = name;
       this.value = def;
     };
 
-    this.getTableRows = function(data, columns) {
+    this.getTableRows = function (data, columns) {
       var result = [];
-      data.forEach(function(item) {
+      data.forEach(function (item) {
         var row = {};
-        columns.forEach(function(column) {
+        columns.forEach(function (column) {
           row[column.name] = item[column.name];
         });
         result.push(row);
@@ -89,7 +89,7 @@ export function MapLoader() {
     }
     var options = {
       size: width || 400,
-      percentage: percentage
+      percentage: percentage,
     };
     options.width = options.size;
     options.height = options.size;
@@ -111,7 +111,7 @@ export function MapLoader() {
 
     if (overlap.tagName === 'circle') {
       overlap.style.pointerEvents = 'none';
-      setTimeout(function() {
+      setTimeout(function () {
         overlap.style.pointerEvents = 'auto';
       }, 1000);
     }
@@ -197,10 +197,10 @@ export function MapLoader() {
       }
 
       return false;
-    }
+    },
   };
 
-  this.init = function(mapUrl, data, width, height) {
+  this.init = function (mapUrl, data, width, height) {
     this.mapUrl = mapUrl;
     this.data = calculateData(data);
     // this.data = new DataHandler(data).data;
@@ -211,7 +211,7 @@ export function MapLoader() {
     return this;
   };
 
-  this.draw = function(el) {
+  this.draw = function (el) {
     var self = this;
     var container = d3.select(el);
     self.tooltip = container
@@ -231,15 +231,12 @@ export function MapLoader() {
       .attr('class', 'btn')
       .attr('value', 'Экспорт')
       .attr('type', 'button');
-    b.on('click', function() {
+    b.on('click', function () {
       saveSvgAsPng(document.querySelector('svg'), 'export.png', {
-        backgroundColor: 'white'
+        backgroundColor: 'white',
       });
     });
-    var slider = c
-      .append('div')
-      .attr('id', 'slider')
-      .attr('class', 'slider');
+    var slider = c.append('div').attr('id', 'slider').attr('class', 'slider');
     slider
       .append('input')
       .attr('class', 'btn1')
@@ -257,7 +254,7 @@ export function MapLoader() {
       .parallels([52, 64])
       .scale(Math.round((9.0 * this.width) / 16.0))
       .translate([self.width / 2, (self.height + 110) / 2]);
-    d3.json(self.mapUrl, function(loaded) {
+    d3.json(self.mapUrl, function (loaded) {
       drawMap.call(self, loaded);
       drawLegend.apply(self);
     });
@@ -266,14 +263,14 @@ export function MapLoader() {
   function drawMap(mapData) {
     var self = this;
     var regionList = {};
-    d3.csvParse(self.regionsCsv).forEach(function(e) {
+    d3.csvParse(self.regionsCsv).forEach(function (e) {
       regionList[e['RegionCode']] = e['RegionName'];
     });
     var mapCollection = {
       data: {},
       cities: {},
       refData: {
-        all: []
+        all: [],
       },
       pieKeys: {},
       tableColumns: [],
@@ -284,11 +281,11 @@ export function MapLoader() {
         new self.helper.columnParameter('index', 0),
         new self.helper.columnParameter('width', 100),
         new self.helper.columnParameter('class'),
-        new self.helper.columnParameter('align', 'left')
-      ]
+        new self.helper.columnParameter('align', 'left'),
+      ],
     };
 
-    self.definePieKeys = function() {
+    self.definePieKeys = function () {
       var curState = self.zoomScale.curState;
 
       var keys = [{ Офисов: '_TP_CNT' }, { ПМ: '_PM_CNT' }];
@@ -313,10 +310,10 @@ export function MapLoader() {
           cities: {
             title: cTitle,
             data: [],
-            [cState]: cData
-          }
+            [cState]: cData,
+          },
         };
-        keys.forEach(function(key) {
+        keys.forEach(function (key) {
           for (var item in key) {
             pieKeys.data.push({ [item]: state + key[item] });
             if (cState === 'CITY') {
@@ -344,19 +341,19 @@ export function MapLoader() {
       }
     };
 
-    self.tableColumn = function(column) {
+    self.tableColumn = function (column) {
       var self = this;
-      var columnParamNames = mapCollection.columnParameters.map(function(col) {
+      var columnParamNames = mapCollection.columnParameters.map(function (col) {
         return col.name;
       });
 
-      Object.keys(column).forEach(key => {
+      Object.keys(column).forEach((key) => {
         if (column.hasOwnProperty(key) && columnParamNames.indexOf(key) == -1) {
           self[key] = column[key];
         }
       });
 
-      mapCollection.columnParameters.forEach(function(parameter) {
+      mapCollection.columnParameters.forEach(function (parameter) {
         var value = column[parameter.name]
           ? column[parameter.name]
           : parameter.value;
@@ -364,7 +361,7 @@ export function MapLoader() {
       });
     };
 
-    self.defineTableColumns = function() {
+    self.defineTableColumns = function () {
       var curState = self.zoomScale.curState;
       var widthColumn = 300;
       if (curState === self.zoomScale.UD) {
@@ -372,37 +369,37 @@ export function MapLoader() {
           new self.tableColumn({
             name: 'UD_REGION',
             display: 'УД Региона',
-            width: widthColumn
+            width: widthColumn,
           }),
           new self.tableColumn({
             name: 'ROO',
             display: 'РОО',
-            width: widthColumn
+            width: widthColumn,
           }),
           new self.tableColumn({
             name: 'UDGO_ROO_FAKT',
             display: window.title + ', тыс.руб, факт',
-            align: 'right'
+            align: 'right',
           }),
           new self.tableColumn({
             name: 'UDGO_ROO_PLAN',
             display: window.title + ', тыс.руб, план',
-            align: 'right'
+            align: 'right',
           }),
           new self.tableColumn({
             name: 'ROO_PRC',
             display: window.title + ', процент',
             align: 'right',
             class: 'map-table__cell_type_prc',
-            width: 80
+            width: 80,
           }),
           new self.tableColumn({
             name: 'ROO_PROGNOZ',
             display: window.title + ', прогноз',
             align: 'right',
             class: 'map-table__cell_type_prc',
-            width: 80
-          })
+            width: 80,
+          }),
         ];
       } else if (
         curState === self.zoomScale.ROO ||
@@ -412,70 +409,70 @@ export function MapLoader() {
           new self.tableColumn({
             name: 'CITY',
             display: 'Город',
-            width: widthColumn
+            width: widthColumn,
           }),
           new self.tableColumn({
             name: 'CITY_TOTAL_FAKT',
             display: window.title + ', тыс.руб, факт',
-            align: 'right'
+            align: 'right',
           }),
           new self.tableColumn({
             name: 'CITY_TOTAL_PLAN',
             display: window.title + ', тыс.руб, план',
-            align: 'right'
+            align: 'right',
           }),
           new self.tableColumn({
             name: 'CITY_PRC',
             display: window.title + ', процент',
             align: 'right',
             class: 'map-table__cell_type_prc',
-            width: 80
+            width: 80,
           }),
           new self.tableColumn({
             name: 'CITY_PROGNOZ',
             display: window.title + ', прогноз',
             align: 'right',
             class: 'map-table__cell_type_prc',
-            width: 80
-          })
+            width: 80,
+          }),
         ];
         if (self.zoomScale.citiesVisible()) {
           mapCollection.citiesTableColumns = [
             new self.tableColumn({
               name: 'TP',
               display: 'ТП',
-              width: widthColumn
+              width: widthColumn,
             }),
             new self.tableColumn({
               name: 'TP_FACT',
               display: window.title + ', тыс.руб, факт',
-              align: 'right'
+              align: 'right',
             }),
             new self.tableColumn({
               name: 'TP_PLAN',
               display: window.title + ', тыс.руб, план',
-              align: 'right'
+              align: 'right',
             }),
             new self.tableColumn({
               name: 'TP_PRC',
               display: window.title + ', процент',
               align: 'right',
               class: 'map-table__cell_type_prc',
-              width: 80
+              width: 80,
             }),
             new self.tableColumn({
               name: 'TP_PROGNOZ',
               display: window.title + ', прогноз',
               align: 'right',
               class: 'map-table__cell_type_prc',
-              width: 80
-            })
+              width: 80,
+            }),
           ];
         }
       }
     };
 
-    mapCollection.push = function(entry) {
+    mapCollection.push = function (entry) {
       this.refData[entry['UDGO']] = this.refData[entry['UDGO']] || [];
       this.refData[entry['ROO']] = this.refData[entry['ROO']] || [];
       this.refData[entry['UDGO']].push(entry.ref);
@@ -483,7 +480,7 @@ export function MapLoader() {
       this.refData.all.push(entry.ref);
     };
 
-    mapCollection.collection = function(context, level) {
+    mapCollection.collection = function (context, level) {
       var m = {};
 
       for (var k in this.data) {
@@ -498,7 +495,7 @@ export function MapLoader() {
       return m;
     };
 
-    mapCollection.selected = function(context, d) {
+    mapCollection.selected = function (context, d) {
       var code = d.properties['int_ref'];
       var e = this.data[code];
       if (!e) return [];
@@ -516,7 +513,7 @@ export function MapLoader() {
       }
     };
 
-    self.data.forEach(function(e) {
+    self.data.forEach(function (e) {
       var code = e['REGION_ID'];
       e['REGION'] = regionList[code]; //дубли
 
@@ -537,7 +534,7 @@ export function MapLoader() {
             CIRCLE_SIZE:
               (Number(self.helper.replaceAll(e['CITY_PLAN'], ' ', '') || 0) *
                 100) /
-              Number(self.helper.replaceAll(e['REGION_PLAN'], ' ', '') || 1)
+              Number(self.helper.replaceAll(e['REGION_PLAN'], ' ', '') || 1),
           },
           e,
           [
@@ -547,7 +544,7 @@ export function MapLoader() {
             'CITY_PRC',
             'CITY_PROGNOZ',
             'LAT',
-            'LON'
+            'LON',
           ]
         )
       );
@@ -562,7 +559,7 @@ export function MapLoader() {
       .enter()
       .append('path')
       .attr('d', path)
-      .style('fill', function(d) {
+      .style('fill', function (d) {
         var code = d.properties['int_ref'];
         var entry = mapCollection.data[code];
 
@@ -599,33 +596,27 @@ export function MapLoader() {
         .enter()
         .append('g')
         .attr('class', 'city')
-        .attr('transform', function(d) {
+        .attr('transform', function (d) {
           return 'translate(' + self.projection([d.LON, d.LAT]) + ')';
         });
+      cities.append('circle').attr('r', 1).style('fill', '#000');
       cities
         .append('circle')
-        .attr('r', 1)
-        .style('fill', '#000');
-      cities
-        .append('circle')
-        .attr('r', function(d) {
+        .attr('r', function (d) {
           return self.helper.calcRadius(d.CIRCLE_SIZE, 1.1);
         })
-        .style('fill', function(d) {
+        .style('fill', function (d) {
           return self.color(self.helper.toNumber(d.CITY_PROGNOZ));
         })
         .attr('stroke-width', 3)
-        .on('mouseover', function(d) {
+        .on('mouseover', function (d) {
           d3.select(this)
             .transition()
             .duration(300)
-            .attr('stroke-width', function(d) {
+            .attr('stroke-width', function (d) {
               return self.helper.calcRadius(d.CIRCLE_SIZE, 0.6);
             });
-          self.tooltip
-            .transition()
-            .duration(300)
-            .style('opacity', 1);
+          self.tooltip.transition().duration(300).style('opacity', 1);
           self.tooltip
             .text(
               d.CITY +
@@ -641,24 +632,18 @@ export function MapLoader() {
             .style('left', d3.event.pageX + 'px')
             .style('top', d3.event.pageY - 120 + 'px');
         })
-        .on('mouseout', function() {
-          d3.select(this)
-            .transition()
-            .duration(300)
-            .attr('stroke-width', 3);
-          self.tooltip
-            .transition()
-            .duration(300)
-            .style('opacity', 0);
+        .on('mouseout', function () {
+          d3.select(this).transition().duration(300).attr('stroke-width', 3);
+          self.tooltip.transition().duration(300).style('opacity', 0);
         })
-        .on('click', function(d) {
+        .on('click', function (d) {
           self.createTable(self.getDataTable(d, 'CITY'), 'city');
-          self.createPie(self.getDataPie(d, 'CITY', 'CITY_PRC'));
+          self.createPie(self.getDataPie(d, 'CITY', 'CITY_PROGNOZ'));
         });
       cities
         .append('text')
         .attr('x', 12)
-        .text(function(d) {
+        .text(function (d) {
           return d.CITY;
         });
     }
@@ -678,17 +663,17 @@ export function MapLoader() {
       var keys = ['FAKT', 'PLAN', 'PRC', 'PROGNOZ'];
       var result = [];
       if (curState === self.zoomScale.UD) {
-        var udgos = Object.values(mapCollection.data).filter(function(item) {
+        var udgos = Object.values(mapCollection.data).filter(function (item) {
           return item[name] === entry[name];
         });
         self.udgosUnique = new Set(
-          udgos.map(function(i) {
+          udgos.map(function (i) {
             return i.ROO;
           })
         );
-        self.udgosUnique.forEach(function(j) {
+        self.udgosUnique.forEach(function (j) {
           result.push(
-            udgos.find(function(udgo) {
+            udgos.find(function (udgo) {
               return j === udgo.ROO;
             })
           );
@@ -698,23 +683,23 @@ export function MapLoader() {
         curState === self.zoomScale.ROO ||
         curState === self.zoomScale.REG
       ) {
-        var cities = self.data.filter(function(item) {
+        var cities = self.data.filter(function (item) {
           return item[name] === entry[name];
         });
         new Set(
-          cities.map(function(i) {
+          cities.map(function (i) {
             return i.CITY;
           })
-        ).forEach(function(j) {
+        ).forEach(function (j) {
           result.push(
-            cities.find(function(city) {
+            cities.find(function (city) {
               return j === city.CITY;
             })
           );
         });
         result.unshift(getTotal(keys, curState));
         if (self.zoomScale.citiesVisible()) {
-          let cityData = window.RU_TP.filter(function(item) {
+          let cityData = window.RU_TP.filter(function (item) {
             return item[name] === entry[name];
           });
           result['cities'] = cityData;
@@ -723,10 +708,10 @@ export function MapLoader() {
       }
       function getTotal(keys, state) {
         var total = {};
-        keys = keys.map(function(key) {
+        keys = keys.map(function (key) {
           return state + '_' + key;
         });
-        keys.forEach(function(key) {
+        keys.forEach(function (key) {
           total[key] = entry[key];
         });
         return total;
@@ -751,10 +736,10 @@ export function MapLoader() {
       var header = $('<div/>', { class: 'map-table__header' });
       var body = $('<div/>', { class: 'map-table__body' });
       var cols = tableColumns.length;
-      tableColumns.forEach(function(col) {
+      tableColumns.forEach(function (col) {
         $('<div/>', {
           class: 'map-table__display',
-          text: col.display
+          text: col.display,
         })
           .css({ width: col.width })
           .appendTo(header);
@@ -768,11 +753,11 @@ export function MapLoader() {
           : 'map-table__cell';
         $('<div/>', {
           class: className,
-          text: value
+          text: value,
         })
           .css({
             width: col.width,
-            textAlign: col.align
+            textAlign: col.align,
           })
           .appendTo(total);
 
@@ -780,16 +765,16 @@ export function MapLoader() {
       }
       $('<div/>', {
         class: 'map-table__total-title',
-        text: 'Итого'
+        text: 'Итого',
       })
         .css('text-align', 'left')
         .prependTo(total);
-      rows.forEach(function(row) {
+      rows.forEach(function (row) {
         var bodyRow = $('<div/>', { class: 'map-table__row' }).appendTo(body);
-        tableColumns.forEach(function(col, k) {
+        tableColumns.forEach(function (col, k) {
           var style = {
             width: col.width,
-            textAlign: col.align
+            textAlign: col.align,
           };
           if (cols - 2 === k || cols - 4 === k) {
             style['background'] = '#f3f4f8';
@@ -802,7 +787,7 @@ export function MapLoader() {
           }
           $('<div/>', {
             class: className,
-            text: row[col.name]
+            text: row[col.name],
           })
             .css(style)
             .appendTo(bodyRow);
@@ -816,7 +801,7 @@ export function MapLoader() {
         name === 'CITY' ? mapCollection.pieKeys.cities : mapCollection.pieKeys;
       var result = {
         title: {},
-        data: []
+        data: [],
       };
       var title =
         self.zoomScale.curState === self.zoomScale.ROO
@@ -826,22 +811,22 @@ export function MapLoader() {
       result.title['value'] = title;
       result['color'] = self.color(self.helper.toNumber(entry[color]));
       result['percentage'] = self.helper.toNumber(entry[color]);
-      var pieData = pieKeys[name].find(function(item) {
+      var pieData = pieKeys[name].find(function (item) {
         if (name === 'ROO') {
           return (
             item['ROO_ID'].localeCompare(entry['ROO_ID'], 'ru', {
-              sensitivity: 'accent'
+              sensitivity: 'accent',
             }) === 0
           );
         }
         return (
           item[name].localeCompare(entry[name], 'ru', {
-            sensitivity: 'accent'
+            sensitivity: 'accent',
           }) === 0
         );
       });
       if (pieData) {
-        pieKeys.data.forEach(function(data) {
+        pieKeys.data.forEach(function (data) {
           if (Object.keys(data)[0] === 'Офисов') {
             var key = name;
             if (name === 'ROO') {
@@ -849,24 +834,24 @@ export function MapLoader() {
             } else if (name === 'REGION') {
               key = 'REGION_ID';
             }
-            var offices = self.data.filter(function(item) {
+            var offices = self.data.filter(function (item) {
               return entry[key] === item[key];
             });
             result.data.push({
               label: Object.keys(data)[0],
-              value: offices.length
+              value: offices.length,
             });
           } else if (Object.keys(data)[0] === 'РОО') {
             result.data.push({
               label: Object.keys(data)[0],
-              value: entry.UDGO_ROO_CNT
+              value: entry.UDGO_ROO_CNT,
             });
           } else {
             result.data.push({
               label: Object.keys(data)[0],
               value: pieData[Object.values(data)[0]]
                 ? pieData[Object.values(data)[0]]
-                : entry[Object.values(data)[0]]
+                : entry[Object.values(data)[0]],
             });
           }
         });
@@ -888,12 +873,12 @@ export function MapLoader() {
       var infoTitle = $('<div/>', { class: 'circle-info__title' })
         .append(
           $('<span/>', {
-            text: data.title.label
+            text: data.title.label,
           })
         )
         .append(
           $('<span/>', {
-            text: data.title.value
+            text: data.title.value,
           })
         );
 
@@ -909,7 +894,7 @@ export function MapLoader() {
       var svg = self.helper.createSVG('svg', {
         class: 'circle-pie',
         width: circle.width,
-        height: circle.height
+        height: circle.height,
       });
 
       var progressBG = self.helper.createSVG('circle', {
@@ -919,7 +904,7 @@ export function MapLoader() {
         r: circle.radius,
         cx: circle.cx,
         cy: circle.cy,
-        'stroke-width': circle.strokeWidth
+        'stroke-width': circle.strokeWidth,
       });
 
       var progressBar = self.helper.createSVG('circle', {
@@ -929,14 +914,15 @@ export function MapLoader() {
         r: circle.radius,
         cx: circle.cx,
         cy: circle.cy,
-        'stroke-width': circle.strokeWidth
+        'stroke-width': circle.strokeWidth,
       });
 
       setTimeout(() => {
         progressBar.setAttribute(
           'style',
-          `stroke-dasharray: ${(circle.circumference / 100) *
-            circle.percentage}, ${circle.circumference}`
+          `stroke-dasharray: ${
+            (circle.circumference / 100) * circle.percentage
+          }, ${circle.circumference}`
         );
       }, 50);
 
@@ -946,10 +932,10 @@ export function MapLoader() {
 
       $('<div/>', {
         class: 'circle-percentage',
-        text: data.percentage + '% прогнозное выполнение'
+        text: data.percentage + '% прогнозное выполнение',
       })
         .css({
-          color: data.color
+          color: data.color,
         })
         .appendTo(infoRight);
 
@@ -959,51 +945,51 @@ export function MapLoader() {
       infoTitle.css('margin', '0px ' + (infoPos - circle.strokeWidth) + 'px');
 
       $('<div/>', {
-        class: 'circle-main__text'
+        class: 'circle-main__text',
       })
         .css({
           width: infoSize + 'px',
           height: infoSize + 'px',
           top: infoPos + 'px',
-          left: infoPos + 'px'
+          left: infoPos + 'px',
         })
         .appendTo(pieEl);
 
-      data.data.forEach(function(item) {
+      data.data.forEach(function (item) {
         var el = $('<div/>', { class: 'circle-info__item' }).appendTo(
           '.circle-main__text'
         );
         var valueEl = $('<span/>', {
           class: 'circle-info__item-value',
-          text: item.value
+          text: item.value,
         });
         var labelEl = $('<span/>', {
-          class: 'circle-info__item-lbl'
+          class: 'circle-info__item-lbl',
         }).append(item.label);
         if (item.label === 'ПМ') {
           var tooltipEl = $('<div/>', {
             class: 'info-lbl-tooltip',
-            text: 'i'
+            text: 'i',
           });
           el.append(tooltipEl);
           tooltipEl.append(
             $('<div/>', {
               class: 'tooltip tooltip-pie',
-              text: 'Учитываются только ПМ\n с наличием плана'
+              text: 'Учитываются только ПМ\n с наличием плана',
             }).css({
               bottom: '0',
-              right: '30px'
+              right: '30px',
             })
           );
           tooltipEl
-            .mouseenter(function() {
+            .mouseenter(function () {
               $('.tooltip-pie').css({
-                opacity: 1
+                opacity: 1,
               });
             })
-            .mouseleave(function() {
+            .mouseleave(function () {
               $('.tooltip-pie').css({
-                opacity: 0
+                opacity: 0,
               });
             });
         }
@@ -1015,7 +1001,7 @@ export function MapLoader() {
       if (data.error) {
         $('<div/>', {
           class: 'circle-info__err',
-          text: data.error
+          text: data.error,
         }).appendTo('.circle-main__text');
       }
     };
@@ -1027,7 +1013,7 @@ export function MapLoader() {
       var e = (d && event) || {
         deltaY: delta,
         offsetX: self.width / 2,
-        offsetY: self.height / 2
+        offsetY: self.height / 2,
       };
       requestAnimationFrame(redraw);
 
@@ -1049,7 +1035,7 @@ export function MapLoader() {
         var newPos = self.projection(coords);
         self.projection.translate([
           currTranslate[0] + (e.offsetX - newPos[0]),
-          currTranslate[1] + (e.offsetY - newPos[1])
+          currTranslate[1] + (e.offsetY - newPos[1]),
         ]);
         g.selectAll('path').attr('d', path);
 
@@ -1121,17 +1107,11 @@ export function MapLoader() {
       self.defineTableColumns();
 
       if (e) {
-        mapCollection.refData.all.forEach(function(el) {
-          d3.select(el)
-            .transition()
-            .duration(300)
-            .attr('class', null);
+        mapCollection.refData.all.forEach(function (el) {
+          d3.select(el).transition().duration(300).attr('class', null);
         });
-        mapCollection.selected(self, zoomed).forEach(function(el) {
-          d3.select(el)
-            .transition()
-            .duration(300)
-            .attr('class', 'highlighted');
+        mapCollection.selected(self, zoomed).forEach(function (el) {
+          d3.select(el).transition().duration(300).attr('class', 'highlighted');
         });
         self.tooltip.text(
           e[name] +
@@ -1152,20 +1132,17 @@ export function MapLoader() {
         var entry = mapCollection.data[k];
 
         d3.select(entry.ref)
-          .style('fill', function() {
+          .style('fill', function () {
             return self.color(self.helper.toNumber(entry[color])) || '#aaa';
           })
-          .on('mouseover', function(d) {
-            mapCollection.selected(self, d).forEach(function(el) {
+          .on('mouseover', function (d) {
+            mapCollection.selected(self, d).forEach(function (el) {
               d3.select(el)
                 .transition()
                 .duration(300)
                 .attr('class', 'highlighted');
             });
-            self.tooltip
-              .transition()
-              .duration(300)
-              .style('opacity', 1);
+            self.tooltip.transition().duration(300).style('opacity', 1);
             self.tooltip
               .text(
                 entry[name] +
@@ -1181,19 +1158,13 @@ export function MapLoader() {
               .style('left', d3.event.pageX + 'px')
               .style('top', d3.event.pageY - 20 + 'px');
           })
-          .on('mouseout', function(d) {
-            mapCollection.refData.all.forEach(function(el) {
-              d3.select(el)
-                .transition()
-                .duration(300)
-                .attr('class', null);
+          .on('mouseout', function (d) {
+            mapCollection.refData.all.forEach(function (el) {
+              d3.select(el).transition().duration(300).attr('class', null);
             });
-            self.tooltip
-              .transition()
-              .duration(300)
-              .style('opacity', 0);
+            self.tooltip.transition().duration(300).style('opacity', 0);
           })
-          .on('click', function(d) {
+          .on('click', function (d) {
             self.onClick(d);
             self.createTable(self.getDataTable(entry, name));
             self.createPie(self.getDataPie(entry, name, color));
@@ -1218,7 +1189,7 @@ export function MapLoader() {
 
     function borders(context, array) {
       var allBounds = [];
-      array.forEach(function(p) {
+      array.forEach(function (p) {
         allBounds.push(p.__data__.properties['int_ref']);
       });
 
@@ -1241,23 +1212,23 @@ export function MapLoader() {
         .attr('class', 'subunit-boundary');
     }
 
-    (function() {
-      d3.select('.btn1').on('click', function() {
+    (function () {
+      d3.select('.btn1').on('click', function () {
         zoomHandler(null, 1);
       });
-      d3.select('.btn2').on('click', function() {
+      d3.select('.btn2').on('click', function () {
         zoomHandler(null, -1);
       });
     })();
 
-    var dragHandler = d3.drag().on('drag', function() {
+    var dragHandler = d3.drag().on('drag', function () {
       var dx = d3.event.dx,
         dy = d3.event.dy;
-      requestAnimationFrame(function() {
+      requestAnimationFrame(function () {
         var currTranslate = self.projection.translate();
         self.projection.translate([
           currTranslate[0] + dx,
-          currTranslate[1] + dy
+          currTranslate[1] + dy,
         ]);
         g.selectAll('path').attr('d', path);
         if (self.zoomScale.citiesVisible()) {
@@ -1271,7 +1242,7 @@ export function MapLoader() {
 
   function redrawCities() {
     var self = this;
-    self.svg.selectAll('g.city').attr('transform', function(d) {
+    self.svg.selectAll('g.city').attr('transform', function (d) {
       return 'translate(' + self.projection([d.LON, d.LAT]) + ')';
     });
   }
@@ -1286,7 +1257,7 @@ export function MapLoader() {
       .attr('width', 87)
       .attr('height', 80)
       .attr('x', 10)
-      .attr('y', function(d, i) {
+      .attr('y', function (d, i) {
         return h - 10 - 4 * ls_h;
       })
       .style('fill', '#fff')
@@ -1300,22 +1271,22 @@ export function MapLoader() {
     legend
       .append('rect')
       .attr('x', 20)
-      .attr('y', function(d, i) {
+      .attr('y', function (d, i) {
         return h - i * ls_h - 2 * ls_h;
       })
       .attr('width', ls_w)
       .attr('height', ls_h)
-      .style('fill', function(d, i) {
+      .style('fill', function (d, i) {
         return self.color(d);
       })
       .style('opacity', 0.8);
     legend
       .append('text')
       .attr('x', 50)
-      .attr('y', function(d, i) {
+      .attr('y', function (d, i) {
         return h - i * ls_h - ls_h - 4;
       })
-      .text(function(d, i) {
+      .text(function (d, i) {
         return self.legend_labels[i];
       });
   }
@@ -1416,7 +1387,7 @@ export function MapLoader() {
     'fdistrict,Far_Eastern,Дальневосточный округ\n';
 } //====================================================================//
 
-(function() {
+(function () {
   var out$ = window;
   out$['default'] = out$;
   var xmlNs = 'http://www.w3.org/2000/xmlns/';
@@ -1432,7 +1403,7 @@ export function MapLoader() {
     ttf: 'application/x-font-ttf',
     eot: 'application/vnd.ms-fontobject',
     sfnt: 'application/font-sfnt',
-    svg: 'image/svg+xml'
+    svg: 'image/svg+xml',
   };
 
   var isElement = function isElement(obj) {
@@ -1447,7 +1418,7 @@ export function MapLoader() {
   };
 
   var requireDomNodePromise = function requireDomNodePromise(el) {
-    return new Promise(function(resolve, reject) {
+    return new Promise(function (resolve, reject) {
       if (isElement(el)) resolve(el);
       else
         reject(
@@ -1466,10 +1437,10 @@ export function MapLoader() {
 
   var getFontMimeTypeFromUrl = function getFontMimeTypeFromUrl(fontUrl) {
     var formats = Object.keys(fontFormats)
-      .filter(function(extension) {
+      .filter(function (extension) {
         return fontUrl.indexOf('.'.concat(extension)) > 0;
       })
-      .map(function(extension) {
+      .map(function (extension) {
         return fontFormats[extension];
       });
     if (formats) return formats[0];
@@ -1511,7 +1482,7 @@ export function MapLoader() {
     if (el.tagName === 'svg')
       return {
         width: width || getDimension(el, clone, 'width'),
-        height: height || getDimension(el, clone, 'height')
+        height: height || getDimension(el, clone, 'height'),
       };
     else if (el.getBBox) {
       var _el$getBBox = el.getBBox(),
@@ -1522,14 +1493,14 @@ export function MapLoader() {
 
       return {
         width: x + _width,
-        height: y + _height
+        height: y + _height,
       };
     }
   };
 
   var reEncode = function reEncode(data) {
     return decodeURIComponent(
-      encodeURIComponent(data).replace(/%([0-9A-F]{2})/g, function(match, p1) {
+      encodeURIComponent(data).replace(/%([0-9A-F]{2})/g, function (match, p1) {
         var c = String.fromCharCode('0x'.concat(p1));
         return c === '%' ? '%25' : c;
       })
@@ -1538,10 +1509,7 @@ export function MapLoader() {
 
   var uriToBlob = function uriToBlob(uri) {
     var byteString = window.atob(uri.split(',')[1]);
-    var mimeString = uri
-      .split(',')[0]
-      .split(':')[1]
-      .split(';')[0];
+    var mimeString = uri.split(',')[0].split(':')[1].split(';')[0];
     var buffer = new ArrayBuffer(byteString.length);
     var intArray = new Uint8Array(buffer);
 
@@ -1550,7 +1518,7 @@ export function MapLoader() {
     }
 
     return new Blob([buffer], {
-      type: mimeString
+      type: mimeString,
     });
   };
 
@@ -1583,13 +1551,13 @@ export function MapLoader() {
     return {
       text: rule.cssText,
       format: getFontMimeTypeFromUrl(fullUrl),
-      url: fullUrl
+      url: fullUrl,
     };
   };
 
   var inlineImages = function inlineImages(el) {
     return Promise.all(
-      Array.from(el.querySelectorAll('image')).map(function(image) {
+      Array.from(el.querySelectorAll('image')).map(function (image) {
         var href =
           image.getAttributeNS('http://www.w3.org/1999/xlink', 'href') ||
           image.getAttribute('href');
@@ -1602,17 +1570,17 @@ export function MapLoader() {
             new Date().valueOf();
         }
 
-        return new Promise(function(resolve, reject) {
+        return new Promise(function (resolve, reject) {
           var canvas = document.createElement('canvas');
           var img = new Image();
           img.crossOrigin = 'anonymous';
           img.src = href;
 
-          img.onerror = function() {
+          img.onerror = function () {
             return reject(new Error('Could not load '.concat(href)));
           };
 
-          img.onload = function() {
+          img.onload = function () {
             canvas.width = img.width;
             canvas.height = img.height;
             canvas.getContext('2d').drawImage(img, 0, 0);
@@ -1633,11 +1601,11 @@ export function MapLoader() {
 
   var inlineFonts = function inlineFonts(fonts) {
     return Promise.all(
-      fonts.map(function(font) {
-        return new Promise(function(resolve, reject) {
+      fonts.map(function (font) {
+        return new Promise(function (resolve, reject) {
           if (cachedFonts[font.url]) return resolve(cachedFonts[font.url]);
           var req = new XMLHttpRequest();
-          req.addEventListener('load', function() {
+          req.addEventListener('load', function () {
             // TODO: it may also be worth it to wait until fonts are fully loaded before
             // attempting to rasterize them. (e.g. use https://developer.mozilla.org/en-US/docs/Web/API/FontFaceSet)
             var fontInBase64 = arrayBufferToBase64(req.response);
@@ -1651,12 +1619,12 @@ export function MapLoader() {
             cachedFonts[font.url] = fontUri;
             resolve(fontUri);
           });
-          req.addEventListener('error', function(e) {
+          req.addEventListener('error', function (e) {
             console.warn('Failed to load font from: '.concat(font.url), e);
             cachedFonts[font.url] = null;
             resolve(null);
           });
-          req.addEventListener('abort', function(e) {
+          req.addEventListener('abort', function (e) {
             console.warn('Aborted loading font from: '.concat(font.url), e);
             resolve(null);
           });
@@ -1665,9 +1633,9 @@ export function MapLoader() {
           req.send();
         });
       })
-    ).then(function(fontCss) {
+    ).then(function (fontCss) {
       return fontCss
-        .filter(function(x) {
+        .filter(function (x) {
           return x;
         })
         .join('');
@@ -1678,11 +1646,13 @@ export function MapLoader() {
 
   var styleSheetRules = function styleSheetRules() {
     if (cachedRules) return cachedRules;
-    return (cachedRules = Array.from(document.styleSheets).map(function(sheet) {
+    return (cachedRules = Array.from(document.styleSheets).map(function (
+      sheet
+    ) {
       try {
         return {
           rules: sheet.cssRules,
-          href: sheet.href
+          href: sheet.href,
         };
       } catch (e) {
         console.warn('Stylesheet could not be loaded: '.concat(sheet.href), e);
@@ -1700,7 +1670,7 @@ export function MapLoader() {
 
     var generateCss =
       modifyCss ||
-      function(selector, properties) {
+      function (selector, properties) {
         var sel = selectorRemap ? selectorRemap(selector) : selector;
         var props = modifyStyle ? modifyStyle(properties) : properties;
         return ''.concat(sel, '{').concat(props, '}\n');
@@ -1709,11 +1679,11 @@ export function MapLoader() {
     var css = [];
     var detectFonts = typeof fonts === 'undefined';
     var fontList = fonts || [];
-    styleSheetRules().forEach(function(_ref2) {
+    styleSheetRules().forEach(function (_ref2) {
       var rules = _ref2.rules,
         href = _ref2.href;
       if (!rules) return;
-      Array.from(rules).forEach(function(rule) {
+      Array.from(rules).forEach(function (rule) {
         if (typeof rule.style != 'undefined') {
           if (query(el, rule.selectorText))
             css.push(generateCss(rule.selectorText, rule.style.cssText));
@@ -1724,7 +1694,7 @@ export function MapLoader() {
         }
       });
     });
-    return inlineFonts(fontList).then(function(fontCss) {
+    return inlineFonts(fontList).then(function (fontCss) {
       return css.join('\n') + fontCss;
     });
   };
@@ -1735,12 +1705,12 @@ export function MapLoader() {
       !('download' in document.createElement('a'))
     ) {
       return {
-        popup: window.open()
+        popup: window.open(),
       };
     }
   };
 
-  out$.prepareSvg = function(el, options, done) {
+  out$.prepareSvg = function (el, options, done) {
     requireDomNode(el);
 
     var _ref3 = options || {},
@@ -1755,7 +1725,7 @@ export function MapLoader() {
       _ref3$responsive = _ref3.responsive,
       responsive = _ref3$responsive === void 0 ? false : _ref3$responsive;
 
-    return inlineImages(el).then(function() {
+    return inlineImages(el).then(function () {
       var clone = el.cloneNode(true);
       clone.style.backgroundColor =
         (options || {}).backgroundColor || el.style.backgroundColor;
@@ -1800,7 +1770,7 @@ export function MapLoader() {
         clone.setAttribute('height', height * scale);
       }
 
-      Array.from(clone.querySelectorAll('foreignObject > *')).forEach(function(
+      Array.from(clone.querySelectorAll('foreignObject > *')).forEach(function (
         foreignObject
       ) {
         foreignObject(
@@ -1810,7 +1780,7 @@ export function MapLoader() {
           foreignObject.tagName === 'svg' ? svgNs : xhtmlNs
         );
       });
-      return inlineCss(el, options).then(function(css) {
+      return inlineCss(el, options).then(function (css) {
         var style = document.createElement('style');
         style.setAttribute('type', 'text/css');
         style.innerHTML = '<![CDATA[\n'.concat(css, '\n]]>');
@@ -1828,15 +1798,15 @@ export function MapLoader() {
           return {
             src: src,
             width: width,
-            height: height
+            height: height,
           };
       });
     });
   };
 
-  out$.svgAsDataUri = function(el, options, done) {
+  out$.svgAsDataUri = function (el, options, done) {
     requireDomNode(el);
-    return out$.prepareSvg(el, options).then(function(_ref4) {
+    return out$.prepareSvg(el, options).then(function (_ref4) {
       var src = _ref4.src,
         width = _ref4.width,
         height = _ref4.height;
@@ -1852,7 +1822,7 @@ export function MapLoader() {
     });
   };
 
-  out$.svgAsPngUri = function(el, options, done) {
+  out$.svgAsPngUri = function (el, options, done) {
     requireDomNode(el);
 
     var _ref5 = options || {},
@@ -1901,21 +1871,21 @@ export function MapLoader() {
 
     if (canvg) return out$.prepareSvg(el, options).then(convertToPng);
     else
-      return out$.svgAsDataUri(el, options).then(function(uri) {
-        return new Promise(function(resolve, reject) {
+      return out$.svgAsDataUri(el, options).then(function (uri) {
+        return new Promise(function (resolve, reject) {
           var image = new Image();
 
-          image.onload = function() {
+          image.onload = function () {
             return resolve(
               convertToPng({
                 src: image,
                 width: image.width,
-                height: image.height
+                height: image.height,
               })
             );
           };
 
-          image.onerror = function() {
+          image.onerror = function () {
             reject(
               'There was an error loading the data URI as an image on the following SVG\n'
                 .concat(
@@ -1931,7 +1901,7 @@ export function MapLoader() {
       });
   };
 
-  out$.download = function(name, uri, options) {
+  out$.download = function (name, uri, options) {
     if (navigator.msSaveOrOpenBlob)
       navigator.msSaveOrOpenBlob(uriToBlob(uri), name);
     else {
@@ -1947,8 +1917,8 @@ export function MapLoader() {
           var url = URL.createObjectURL(blob);
           saveLink.href = url;
 
-          saveLink.onclick = function() {
-            return requestAnimationFrame(function() {
+          saveLink.onclick = function () {
+            return requestAnimationFrame(function () {
               return URL.revokeObjectURL(url);
             });
           };
@@ -1969,26 +1939,26 @@ export function MapLoader() {
     }
   };
 
-  out$.saveSvg = function(el, name, options) {
+  out$.saveSvg = function (el, name, options) {
     var downloadOpts = downloadOptions(); // don't inline, can't be async
 
     return requireDomNodePromise(el)
-      .then(function(el) {
+      .then(function (el) {
         return out$.svgAsDataUri(el, options || {});
       })
-      .then(function(uri) {
+      .then(function (uri) {
         return out$.download(name, uri, downloadOpts);
       });
   };
 
-  out$.saveSvgAsPng = function(el, name, options) {
+  out$.saveSvgAsPng = function (el, name, options) {
     var downloadOpts = downloadOptions(); // don't inline, can't be async
 
     return requireDomNodePromise(el)
-      .then(function(el) {
+      .then(function (el) {
         return out$.svgAsPngUri(el, options || {});
       })
-      .then(function(uri) {
+      .then(function (uri) {
         return out$.download(name, uri, downloadOpts);
       });
   };

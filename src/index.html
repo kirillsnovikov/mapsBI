@@ -16,7 +16,7 @@
 
   <body>
     <div id="app">APP</div>
-    <div class="mapcontainer" style="width: 100%">
+    <div class="mapcontainer" style="width: 100%;">
       <div class="mapcontainer__top">
         <div class="mapcontainer__map" style="height: 500px;"></div>
         <div class="mapcontainer__pie"></div>
@@ -41,14 +41,14 @@
       var MO_UDGO = [];
       var MO_EMPL = [];
       var title = 'Ком.доход';
-      fetch('http://suitecrm/data_dolya.json')
-        .then(response => response.json())
-        .then(res => (data = res))
+      fetch('http://suitecrm/data.json')
+        .then((response) => response.json())
+        .then((res) => (data = res))
         .then(
           $(
-            (function() {
-              setTimeout(function() {
-                var loader = new myLib.MapLoader_dolya().init(
+            (function () {
+              setTimeout(function () {
+                var loader = new myLib.MapLoader().init(
                   'http://suitecrm/russia_l4.json',
                   data,
                   $('.mapcontainer__map').width(),
@@ -66,32 +66,32 @@
           )
         );
       fetch('http://suitecrm/UDGO.json')
-        .then(response => response.json())
-        .then(res => (RU_UDGO = res));
+        .then((response) => response.json())
+        .then((res) => (RU_UDGO = res));
       fetch('http://suitecrm/ROO.json')
-        .then(response => response.json())
-        .then(res => (RU_ROO = res));
+        .then((response) => response.json())
+        .then((res) => (RU_ROO = res));
       fetch('http://suitecrm/REGION.json')
-        .then(response => response.json())
-        .then(res => (RU_REGION = res));
+        .then((response) => response.json())
+        .then((res) => (RU_REGION = res));
       fetch('http://suitecrm/CITY.json')
-        .then(response => response.json())
-        .then(res => (RU_CITY = res));
+        .then((response) => response.json())
+        .then((res) => (RU_CITY = res));
       fetch('http://suitecrm/TP.json')
-        .then(response => response.json())
-        .then(res => (RU_TP = res));
+        .then((response) => response.json())
+        .then((res) => (RU_TP = res));
       fetch('http://suitecrm/MO_TP.json')
-        .then(response => response.json())
-        .then(res => (MO_TP = res));
+        .then((response) => response.json())
+        .then((res) => (MO_TP = res));
       fetch('http://suitecrm/MO_BG.json')
-        .then(response => response.json())
-        .then(res => (MO_BG = res));
+        .then((response) => response.json())
+        .then((res) => (MO_BG = res));
       fetch('http://suitecrm/MO_UDGO.json')
-        .then(response => response.json())
-        .then(res => (MO_UDGO = res));
+        .then((response) => response.json())
+        .then((res) => (MO_UDGO = res));
       fetch('http://suitecrm/MO_EMPL_dolya.json')
-        .then(response => response.json())
-        .then(res => (MO_EMPL = res));
+        .then((response) => response.json())
+        .then((res) => (MO_EMPL = res));
     </script>
   </body>
 </html>
