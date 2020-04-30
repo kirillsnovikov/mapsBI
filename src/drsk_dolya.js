@@ -1001,7 +1001,8 @@ export function MapLoader_dolya() {
           dataObj &&
           self.zoomScale.citiesVisible()
         ) {
-          drawCities(code);
+          // отрисовка городов по скроллу
+          // drawCities(code);
         } else {
           if (!self.zoomScale.citiesVisible()) {
             if (cities) {

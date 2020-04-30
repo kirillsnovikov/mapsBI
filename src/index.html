@@ -41,14 +41,14 @@
       var MO_UDGO = [];
       var MO_EMPL = [];
       var title = 'Ком.доход';
-      fetch('http://suitecrm/data.json')
+      fetch('http://suitecrm/data_dolya.json')
         .then(response => response.json())
         .then(res => (data = res))
         .then(
           $(
             (function() {
               setTimeout(function() {
-                var loader = new myLib.MapLoader().init(
+                var loader = new myLib.MapLoader_dolya().init(
                   'http://suitecrm/russia_l4.json',
                   data,
                   $('.mapcontainer__map').width(),

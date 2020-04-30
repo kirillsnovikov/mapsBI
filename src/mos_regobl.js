@@ -1122,7 +1122,8 @@ export function MapLoader_regobl() {
           dataObj &&
           self.zoomScale.citiesVisible()
         ) {
-          drawCities(dataObj['BG']);
+          // отрисовка городов по скроллу
+          // drawCities(dataObj['BG']);
         } else {
           if (!self.zoomScale.citiesVisible()) {
             if (cities) {

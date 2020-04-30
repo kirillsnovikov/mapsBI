@@ -40,12 +40,18 @@ export const calculateRooByUdgoAndCities = data => {
     let uniqRoos = uniqArrByKey(udgosData, ROO);
     uniqRoos.forEach(roo => {
       let roosData = filterDataByKey(udgosData, ROO, roo);
+      let uniqPoints = uniqArrByKey(roosData, CITY);
+      let pointsData = [];
+      uniqPoints.forEach(point => {
+        pointsData.push(roosData.find(item => item[CITY] === point));
+      });
       ROO_CUSTOMER = average(
-        roosData.map(item => toNumber(item[`${CITY}_CUSTOMER`]))
+        pointsData.map(item => toNumber(item[`${CITY}_CUSTOMER`]))
       );
       UDGO_CUSTOMER += ROO_CUSTOMER;
       roosData.forEach(i => {
         i[`${ROO}_CUSTOMER`] = ROO_CUSTOMER;
+        i[`${CITY}_CNT`] = uniqPoints.size;
       });
     });
     udgosData.forEach(el => {

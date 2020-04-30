@@ -1058,14 +1058,17 @@ export function MapLoader() {
           dataObj &&
           self.zoomScale.citiesVisible()
         ) {
-          drawCities(code);
+          // отрисовка городов по скроллу
+          // drawCities(code);
         } else {
           if (!self.zoomScale.citiesVisible()) {
             if (cities) {
               cities.remove();
               cities = null;
             }
-          } else redrawCities.call(self);
+          } else {
+            redrawCities.call(self);
+          }
         }
 
         paint.call(self, d);
